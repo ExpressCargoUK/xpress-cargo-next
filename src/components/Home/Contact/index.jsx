@@ -8,14 +8,14 @@ const Contact = () => {
       <Container>
         <Grid container>
           <Grid
-            items
+            item
             xs={12}
             md={3}
             sx={{
               display: { xs: "none", md: "block" },
             }}
           ></Grid>
-          <Grid items xs={12} md={6}>
+          <Grid item xs={12} md={6}>
             <Box className={styles.form__wrapper}>
               <Typography component="h2" className={styles.title}>
                 Contact Us
@@ -40,7 +40,7 @@ const Contact = () => {
             </Box>
           </Grid>
           <Grid
-            items
+            item
             xs={12}
             md={3}
             sx={{

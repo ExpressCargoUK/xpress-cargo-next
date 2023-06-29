@@ -295,7 +295,7 @@ export const services = [
     description:
       "Are you an international student in the UK or someone going home for holiday? Looking for the best option to ship your belongings back home? Our air freight and door-to-door courier services could save you time and money. Forget about high airline charges",
     serviceType: "Excess Baggage",
-    link: "/services/express-baggage",
+    link: "/services/excess-baggage",
   },
   {
     title: "Parcel",

@@ -34,7 +34,7 @@ const Services = ({
 
         <Grid container justifyContent="center">
           {renderServices.map((service, i) => (
-            <Grid items xs={12} md={6} lg={4} key={i}>
+            <Grid item xs={12} md={6} lg={4} key={i}>
               <ServiceCard {...service} />
             </Grid>
           ))}

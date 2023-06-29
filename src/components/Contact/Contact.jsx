@@ -88,7 +88,7 @@ const ContactUsForm = () => {
           </Typography>
         </Box>
 
-        <Grid container spacing={4} sx={{ marginTop: 1 }}>
+        <Grid container spacing={4} sx={{ marginTop: 1 }} item>
           <Grid item xs={12} md={6}>
             <Box className={styles.left__content}>
               <Typography className={styles.details}>

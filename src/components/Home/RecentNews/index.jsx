@@ -25,7 +25,7 @@ const RecentNews = () => {
 
         <Grid container justifyContent="center">
           {recentNews?.map((news, i) => (
-            <Grid items xs={12} md={6} lg={4} key={i}>
+            <Grid item xs={12} md={6} lg={4} key={i}>
               <NewsCard {...news} />
             </Grid>
           ))}
