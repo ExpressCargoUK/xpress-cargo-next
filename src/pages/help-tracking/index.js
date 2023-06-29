@@ -20,7 +20,7 @@ const HelpAndTracking = () => {
         <ServicesTopBanner
           TitleBeforeBreak="Help And Tracking"
           // TitleAfterBreak="Freight Services"
-          backgroundImg={bg}
+          backgroundImg={bg.src}
           descriptions={["The concept of road freight is straightforward."]}
         />
 

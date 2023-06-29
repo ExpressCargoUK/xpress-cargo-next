@@ -12,10 +12,10 @@ import Link from "next/link";
 
 const Footer = () => {
   const [displayCount, setDisplayCount] = useState(5);
-  console.log(displayCount, footerCountry[0].submenu.length);
+  // console.log(displayCount, footerCountry[0].submenu.length);
 
   const sliceLinks = footerCountry[0].submenu.slice(0, 0);
-  console.log(sliceLinks);
+  // console.log(sliceLinks);
 
   const handleMoreLinks = () => setDisplayCount(displayCount + 5);
 
@@ -24,7 +24,7 @@ const Footer = () => {
       <Container>
         <Grid container>
           {footerData.map(({ title, submenu }, i) => (
-            <Grid items xs={12} sm={6} lg={3} key={`${title}_${i}`}>
+            <Grid item xs={12} sm={6} lg={3} key={`${title}_${i}`}>
               <Box className={styles.menu__box}>
                 <Typography
                   variant="h4"
@@ -51,7 +51,7 @@ const Footer = () => {
             </Grid>
           ))}
 
-          <Grid items xs={12} sm={6} lg={3}>
+          <Grid item xs={12} sm={6} lg={3}>
             <Box className={styles.menu__box}>
               <Typography variant="h4" component="h3" className={styles.title}>
                 Contact Us
@@ -106,7 +106,7 @@ const Footer = () => {
               </Box>
             </Box>
           </Grid>
-          <Grid items xs={12} sm={6} lg={3}>
+          <Grid item xs={12} sm={6} lg={3}>
             <Box className={styles.menu__box}>
               <Typography variant="h4" component="h3" className={styles.title}>
                 Follow Us
@@ -172,7 +172,7 @@ const Footer = () => {
         <br />
         <Grid container>
           {footerCountry.map(({ title, submenu }, i) => (
-            <Grid items xs={12} sm={6} lg={3} key={`${title}_${i}`}>
+            <Grid item xs={12} sm={6} lg={3} key={`${title}_${i}`}>
               <Box className={styles.menu__box}>
                 <Typography
                   variant="h4"
