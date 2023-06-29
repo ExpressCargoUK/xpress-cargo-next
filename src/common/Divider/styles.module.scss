@@ -1,0 +1,16 @@
+.separator {
+  display: block;
+  width: 200px;
+  height: 10px;
+  border-radius: 30px;
+  background: #02ddf9;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#4be0c5),
+    color-stop(50%, #2b3990),
+    to(#02ddf9)
+  );
+  background: linear-gradient(90deg, #4be0c5 0, #2b3990 50%, #02ddf9 100%);
+}

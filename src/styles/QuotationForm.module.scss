@@ -1,0 +1,77 @@
+.__wrapper {
+  padding: 3.5rem 0 2rem 0;
+  background: #031224;
+
+  @media screen and (min-width: 990px) {
+    padding: 5.5rem 0 3rem 0;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin: 5rem 0 2rem 0;
+    max-width: 800px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form {
+    .input__group {
+      display: flex;
+      gap: 2rem;
+
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 0;
+      }
+    }
+
+    .radio__group {
+      color: #fff;
+      margin-top: 2rem;
+
+      .label {
+        color: #fff;
+
+        &:focus {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .type_label {
+    color: #ffba01;
+  }
+
+  .form__input {
+    margin-bottom: 1rem;
+    background-color: #fff;
+
+    input {
+      &:focus {
+        background-color: #cbf4ec;
+      }
+    }
+  }
+
+  .textarea {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-bottom: 1px solid #000;
+    margin-bottom: 1rem;
+
+    &::placeholder {
+      font-size: 1rem;
+      color: #1c252e;
+    }
+
+    &:focus {
+      background: #cbf4ec;
+    }
+  }
+}

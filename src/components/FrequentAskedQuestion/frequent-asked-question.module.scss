@@ -1,0 +1,23 @@
+.content__wrapper {
+  background: #031224;
+  padding-top: 5rem;
+
+  .content {
+    padding: 4rem 0;
+    color: #fff;
+    max-width: 60rem;
+
+    .heading {
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .ques__and__ans {
+      margin-bottom: 1rem;
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

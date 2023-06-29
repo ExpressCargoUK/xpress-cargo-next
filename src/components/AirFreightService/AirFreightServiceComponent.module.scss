@@ -1,0 +1,27 @@
+.content__wrapper {
+  background: #fff;
+  padding: 4rem 0;
+
+  .main__content {
+    padding-top: 4rem;
+
+    .section__head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .section__title {
+        font-weight: 600;
+        color: #1c252e;
+        padding: 2rem 0;
+
+
+        @media only screen and (max-width: 768px) {
+          font-size: 1.6rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

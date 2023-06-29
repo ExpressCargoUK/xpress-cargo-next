@@ -1,0 +1,17 @@
+.icon {
+  height: 35px;
+  width: 35px;
+  background-color: #f1f1f1;
+  color: #0e1e59;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 5px;
+
+  * {
+    color: #0e1e59;
+    // fill: #0e1e59;
+    font-size: 18px;
+  }
+}

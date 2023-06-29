@@ -1,0 +1,29 @@
+.__wrapper {
+  min-height: 80px;
+  width: 100%;
+  // padding: 15px 0 !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    display: inline-block;
+    width: max-content;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 100px;
+      width: auto;
+      object-fit: contain;
+    }
+  }
+
+  .nab__menu {
+  }
+  .nab__socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

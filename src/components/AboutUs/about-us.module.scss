@@ -1,0 +1,51 @@
+.content__wrapper {
+  width: 100%;
+  background: #031224;
+  padding: 100px 0;
+
+  .about__content {
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+      clip-path: none;
+    }
+
+    .content {
+      max-width: 50rem;
+      text-align: center;
+      margin: 0 auto;
+
+      .about__title {
+        color: #fff;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 1.5rem;
+        font-size: 3.8rem;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 2rem;
+        }
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 40%;
+          bottom: 0;
+          width: 20%;
+          height: 5px;
+          background: #fff;
+        }
+      }
+
+      .about {
+        margin-top: 3rem;
+        color: #c6cad8;
+
+        p {
+          font-size: 1.2rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

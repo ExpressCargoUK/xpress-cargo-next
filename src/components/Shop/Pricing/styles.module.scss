@@ -1,0 +1,100 @@
+.__wrapper {
+  padding: 100px 0;
+  color: #fff;
+  font-size: 20px;
+  background-size: 180%;
+
+  .description__wrapper {
+    background: #031224;
+    padding: 15px 20px 10px;
+    margin-bottom: 40px;
+
+    .title {
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 10px;
+      font-size: 38px;
+      text-align: center;
+    }
+
+    // .para {
+    //   color: #fff;
+    //   font-size: 20px;
+    // }
+  }
+
+  .card {
+    display: inline-block;
+    // background: rgba(117, 82, 163, 0.6);
+    text-align: center;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px !important;
+
+    .__card_title {
+      font-size: 30px;
+      padding: 28px 5px 26px;
+      text-align: center;
+      color: #000;
+      font-weight: 700;
+    }
+
+    .pricing_at_30kg {
+      background: #031224;
+      padding: 10px 5px;
+      font-size: 20px;
+      margin: 0;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto 40px;
+      width: 150px;
+
+      li {
+        font-size: 35px;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 1;
+        font-weight: 700;
+        text-align: -webkit-match-parent;
+        margin-left: 10px;
+
+        &:first-child {
+          background: none;
+          font-size: 30px;
+          padding: 0;
+          line-height: 1;
+          font-weight: 700;
+          display: inline-block;
+          vertical-align: top;
+          margin-right: 3px;
+        }
+
+        &:nth-child(2) {
+          margin-right: -12px;
+          font-size: 80px;
+          font-weight: 700;
+          margin-top: -10px;
+          margin-left: -4px;
+          display: inline-block;
+          vertical-align: top;
+          line-height: 1;
+        }
+
+        &:last-child {
+          line-height: 1;
+          font-weight: 400;
+          font-size: 18px;
+          display: block;
+          margin-top: -34px;
+          margin-left: 75px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.player__wrapper {
+  background: #031224;
+  // margin-top: 6rem;
+  padding: 5rem 0;
+
+  @media only screen and (max-width: 768px) {
+    padding: 3rem 0;
+  }
+
+  .video__box {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+  }
+}

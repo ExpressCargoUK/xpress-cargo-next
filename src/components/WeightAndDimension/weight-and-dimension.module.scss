@@ -1,0 +1,41 @@
+.__wrapper {
+  background: #fff;
+  padding: 3rem 0;
+  .content {
+    * {
+      color: #2e1c26;
+    }
+
+    .title {
+      font-weight: 700;
+    }
+
+    .text {
+    }
+
+    .img__box {
+      img {
+        width: 40%;
+
+        @media only screen and (max-width: 768px) {
+          width: 60%;
+        }
+      }
+    }
+
+    .accordion__box {
+      .accordion__heading {
+        width: 80%;
+        margin: 0 auto;
+
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+
+          .title {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

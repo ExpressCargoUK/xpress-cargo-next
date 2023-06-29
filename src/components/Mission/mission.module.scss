@@ -1,0 +1,55 @@
+.mission__wrapper {
+  background: #fff;
+  padding: 100px 0;
+
+  .card__container {
+    .card {
+      text-align: center;
+
+      .icon {
+        font-size: 6rem;
+        fill: #031224;
+        color: #031224;
+        margin-bottom: 0.5rem;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 5rem;
+        }
+      }
+
+      .title {
+        color: #031224;
+        font-weight: 600;
+        text-transform: uppercase;
+        position: relative;
+        display: block;
+        width: max-content;
+        margin: 0 auto;
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          bottom: 0;
+          width: 80%;
+          height: 3px;
+          transform: translate(15%);
+          background: #031224;
+        }
+
+        @media only screen and (max-width: 768px) {
+          font-size: 1.4rem;
+        }
+      }
+
+      .description {
+        color: #838383;
+        font-size: 1.2rem;
+        text-align: justify;
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.ourServices__wrapper {
+  background: #fff;
+  padding: 5rem 0;
+
+  @media only screen and (max-width: 768px) {
+    padding: 3rem 0;
+  }
+
+  .head {
+    text-align: center;
+
+    .title {
+      color: #333;
+      font-size: 2.4rem;
+      font-weight: 600;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 1.8rem;
+      }
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin: 0.8rem 0;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .card__wrapper {
+    margin-top: 3rem;
+
+    @media only screen and (max-width: 768px) {
+      margin-top: 1rem;
+    }
+
+    .card {
+      padding: 1rem;
+
+      @media only screen and (max-width: 768px) {
+        text-align: center;
+      }
+
+      svg {
+        color: #979797;
+        font-size: 3rem;
+      }
+
+      .title {
+        color: #333;
+        font-weight: 600;
+        margin: 1rem 0;
+      }
+
+      .description {
+        color: #737373;
+        font-weight: 400;
+      }
+
+      .link {
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: #8b20bb;
+        font-weight: 600;
+        display: block;
+        margin-top: 1.5rem;
+        padding-left: 0.5rem;
+        display: inline-block;
+      }
+    }
+  }
+}

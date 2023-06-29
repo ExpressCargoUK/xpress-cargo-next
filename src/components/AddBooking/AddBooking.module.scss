@@ -1,0 +1,51 @@
+._wrapper {
+  padding: 5rem 0 2rem 0;
+  background: #031224;
+
+  ._header {
+    h6 {
+      text-align: center;
+      font-size: 36px;
+      font-weight: 600;
+      color: #fff;
+      margin: 50px 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  ._heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .type_label {
+    color: #ffba01;
+  }
+
+  .form__input {
+    margin-bottom: 1rem;
+    background-color: #fff;
+
+    input {
+      &:focus {
+        background-color: #cbf4ec;
+      }
+    }
+  }
+
+  .radio__group {
+    color: #fff;
+    margin-top: 2rem;
+
+    .label {
+      color: #fff;
+
+      &:focus {
+        color: #fff;
+      }
+    }
+  }
+}

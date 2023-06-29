@@ -1,0 +1,21 @@
+.__wrapper {
+  padding: 100px 0;
+
+  .title {
+    color: #000;
+    margin-bottom: 6%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .retailer_img {
+    height: 45px;
+    // width: 160px;
+    object-fit: contain;
+    margin-right: 45px;
+    display: inline-block;
+  }
+}

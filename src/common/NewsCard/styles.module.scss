@@ -1,0 +1,86 @@
+.__wrapper {
+  padding: 0.5rem;
+  height: 100%;
+
+  .__content {
+    display: block;
+    height: 100%;
+    background-color: #1c252e;
+    border-radius: 12px;
+    padding: 25px 25px;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+
+    &:hover {
+      background-color: #4ce4c6;
+
+      .innerAlignWrapper {
+        .topAligned {
+          h3 {
+            color: #1c252e;
+          }
+
+          p {
+            color: #1c252e;
+          }
+        }
+
+        .linkText {
+          color: #1c252e;
+        }
+      }
+    }
+
+    .innerAlignWrapper {
+      position: relative;
+      z-index: 2;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      height: 100%;
+
+      .topAligned {
+        align-self: flex-start;
+
+        .imgWrapper {
+          position: relative;
+          z-index: 1;
+          margin-bottom: 25px;
+        }
+
+        h3 {
+          margin: 0 0 20px;
+          max-width: 960px;
+          padding: 0;
+          font-size: 1.25em;
+          color: #fff;
+          -webkit-transition: color 0.4s ease;
+          transition: color 0.4s ease;
+          font-family: century-gothic, sans-serif;
+          font-weight: 700;
+        }
+
+        p {
+          margin-bottom: 20px;
+          -webkit-transition: color 0.4s ease;
+          transition: color 0.4s ease;
+          color: #fff;
+        }
+      }
+
+      .linkText {
+        display: block;
+        font-weight: 400;
+        -webkit-transition: color 0.4s ease, text-shadow 0.4s ease;
+        transition: color 0.4s ease, text-shadow 0.4s ease;
+        color: #4ce4c6;
+        text-shadow: 0 0 #4ce4c6;
+        text-decoration: underline;
+      }
+    }
+  }
+}
