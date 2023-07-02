@@ -1,21 +1,21 @@
-import { TabContext } from "@mui/lab";
-import TabPanel from "@mui/lab/TabPanel";
-import { Box, Tab, Tabs, Typography } from "@mui/material";
-import { useState } from "react";
-import { FaTruckMoving } from "react-icons/fa";
-import { IoAirplaneSharp } from "react-icons/io5";
-import { RiShipFill } from "react-icons/ri";
-import AirFreight from "./AirFreight/AirFreight";
-import RoadFreight from "./RoadFreight/RoadFreight";
-import SeaFreight from "./SeaFreight/SeaFreight";
-import styles from "./shipping.module.scss";
-import ShippingHead from "./ShippingHead/ShippingHead";
+import { TabContext } from "@mui/lab"
+import TabPanel from "@mui/lab/TabPanel"
+import { Box, Tab, Tabs, Typography } from "@mui/material"
+import { useState } from "react"
+import { FaTruckMoving } from "react-icons/fa"
+import { IoAirplaneSharp } from "react-icons/io5"
+import { RiShipFill } from "react-icons/ri"
+import AirFreight from "./AirFreight/AirFreight"
+import RoadFreight from "./RoadFreight/RoadFreight"
+import SeaFreight from "./SeaFreight/SeaFreight"
+import styles from "./shipping.module.scss"
+import ShippingHead from "./ShippingHead/ShippingHead"
 
 const Shipping = () => {
-  const [activeTab, setActiveTab] = useState("1");
+  const [activeTab, setActiveTab] = useState("1")
 
   // Handle active tab
-  const handleActiveTab = (event, value) => setActiveTab(value);
+  const handleActiveTab = (event, value) => setActiveTab(value)
 
   return (
     <>
@@ -92,7 +92,7 @@ const Shipping = () => {
         </TabContext>
       </Box>
     </>
-  );
-};
+  )
+}
 
-export default Shipping;
+export default Shipping

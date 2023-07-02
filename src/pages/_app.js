@@ -1,8 +1,8 @@
-import ScrollToTop from "@/common/scrollToTop";
-import FCWhatsapp from "@/common/FCWhatsapp";
-import Layout from "@/Layout";
-import "@/styles/reset.scss";
-import "@/styles/index.scss";
+import Layout from "@/Layout"
+import FCWhatsapp from "@/common/FCWhatsapp"
+import ScrollToTop from "@/common/scrollToTop"
+import "@/styles/index.scss"
+import "@/styles/reset.scss"
 
 export default function App({ Component, pageProps }) {
   return (
@@ -13,5 +13,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </Layout>
     </>
-  );
+  )
 }

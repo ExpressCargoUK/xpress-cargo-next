@@ -1,6 +1,6 @@
-import { Box, Stack, Typography } from "@mui/material";
-import Divider from "../../../common/Divider";
-import styles from "./offices.module.scss";
+import { Box, Stack, Typography } from "@mui/material"
+import Divider from "../../../common/Divider"
+import styles from "./offices.module.scss"
 
 const Offices = () => {
   return (
@@ -127,7 +127,7 @@ const Offices = () => {
         </Box>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default Offices;
+export default Offices

@@ -1,5 +1,5 @@
-import { Box, Container, Typography } from "@mui/material";
-import styles from "./page-head.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import styles from "./page-head.module.scss"
 
 const PageHead = ({ bgImage, title1, title2, description }) => {
   return (
@@ -19,7 +19,7 @@ const PageHead = ({ bgImage, title1, title2, description }) => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default PageHead;
+export default PageHead

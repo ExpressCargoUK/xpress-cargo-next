@@ -1,8 +1,8 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
-import { AiOutlineHeart } from "react-icons/ai";
-import { BiTargetLock } from "react-icons/bi";
-import { IoCompassOutline } from "react-icons/io5";
-import styles from "./mission.module.scss";
+import { Box, Container, Grid, Typography } from "@mui/material"
+import { AiOutlineHeart } from "react-icons/ai"
+import { BiTargetLock } from "react-icons/bi"
+import { IoCompassOutline } from "react-icons/io5"
+import styles from "./mission.module.scss"
 
 const Mission = () => {
   return (
@@ -54,7 +54,7 @@ const Mission = () => {
         </Grid>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Mission;
+export default Mission

@@ -1,19 +1,17 @@
-import React from "react";
-import isEqual from "react-fast-compare";
-import Banner from "@/common/Banner";
-import ExpressBaggage from "@/components/ExpressBaggage/ExpressBaggage";
-import Head from "next/head";
+import Banner from "@/common/Banner"
+import ExpressBaggage from "@/components/ExpressBaggage/ExpressBaggage"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
 
 const ExpressBaggagePage = () => {
   return (
     <>
-      <Head>
-        <title>Excess Baggage - Courier Services UK - Express Cargo</title>
-        <meta
-          name="description"
-          content="We offer air freight and door to door excess baggage services to ship your belongings. Check out our shipping rates to Saudi Arabia, Qatar, Bahrain, UAE, etc."
-        />
-      </Head>
+      <NextSeo
+        title="Excess Baggage | Courier Services UK"
+        description="We offer air freight and door to door excess baggage services to ship your belongings. Check out our shipping rates to Saudi Arabia, Qatar, Bahrain, UAE, etc."
+      />
+
       <Banner
         title="Excess Baggage"
         subTitle="The most professional and worry-free international moving experience"
@@ -22,7 +20,7 @@ const ExpressBaggagePage = () => {
 
       <ExpressBaggage />
     </>
-  );
-};
+  )
+}
 
-export default React.memo(ExpressBaggagePage, isEqual);
+export default React.memo(ExpressBaggagePage, isEqual)

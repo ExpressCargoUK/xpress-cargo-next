@@ -1,7 +1,7 @@
-import { Container, Grid, Typography } from "@mui/material";
-import React from "react";
-import Divider from "../../common/Divider";
-import styles from "./InternationalRemovals.module.scss";
+import { Container, Grid, Typography } from "@mui/material"
+import React from "react"
+import Divider from "../../common/Divider"
+import styles from "./InternationalRemovals.module.scss"
 const InternationalRemovals = () => {
   return (
     <div className={styles._wrapper}>
@@ -24,19 +24,20 @@ const InternationalRemovals = () => {
                 Do you need services for shipping furniture? If you’re ready to
                 move overseas, or maybe you have been living abroad for a while
                 and it is time to return home, you might be wondering how to
-                ship furniture abroad… That’s where Express Cargo&apos;s specialist
-                furniture shipping skills can help.
+                ship furniture abroad… That’s where Express Cargo&apos;s
+                specialist furniture shipping skills can help.
               </Typography>
               <Typography
                 variant="subtitle1"
                 color="inherit"
                 className={styles._description}
               >
-                As one of the UK&apos;s most reliable, professional, and dedicated
-                furniture shipping companies, we have completed European and
-                international removals for over 15 years. Our team of furniture
-                shippers handles over 1000&apos;s of consignments every year, so your
-                items are in safe hands when you choose Express Cargo.
+                As one of the UK&apos;s most reliable, professional, and
+                dedicated furniture shipping companies, we have completed
+                European and international removals for over 15 years. Our team
+                of furniture shippers handles over 1000&apos;s of consignments
+                every year, so your items are in safe hands when you choose
+                Express Cargo.
               </Typography>
             </Grid>
             <Grid item md={6} sm={12} xs={12}>
@@ -111,7 +112,7 @@ const InternationalRemovals = () => {
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default InternationalRemovals;
+export default InternationalRemovals

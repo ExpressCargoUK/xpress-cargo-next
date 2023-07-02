@@ -1,5 +1,5 @@
-import { Container, Grid, Typography } from "@mui/material";
-import styles from "./ExpressBaggage.module.scss";
+import { Container, Grid, Typography } from "@mui/material"
+import styles from "./ExpressBaggage.module.scss"
 
 const ExpressBaggage = () => {
   return (
@@ -72,7 +72,7 @@ const ExpressBaggage = () => {
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default ExpressBaggage;
+export default ExpressBaggage

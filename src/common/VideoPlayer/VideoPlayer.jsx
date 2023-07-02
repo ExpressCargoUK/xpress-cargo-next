@@ -1,6 +1,6 @@
-import { Box, Container } from "@mui/material";
-import ReactPlayer from "react-player";
-import styles from "./video-player.module.scss";
+import { Box, Container } from "@mui/material"
+import ReactPlayer from "react-player"
+import styles from "./video-player.module.scss"
 
 const VideoPlayer = ({ url }) => {
   return (
@@ -11,7 +11,7 @@ const VideoPlayer = ({ url }) => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default VideoPlayer;
+export default VideoPlayer

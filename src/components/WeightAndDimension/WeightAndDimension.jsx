@@ -1,5 +1,5 @@
-import { Box, Container, Typography } from "@mui/material";
-import styles from "./weight-and-dimension.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import styles from "./weight-and-dimension.module.scss"
 
 const WeightAndDimensionComponent = () => {
   return (
@@ -57,7 +57,7 @@ const WeightAndDimensionComponent = () => {
         </div>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default WeightAndDimensionComponent;
+export default WeightAndDimensionComponent

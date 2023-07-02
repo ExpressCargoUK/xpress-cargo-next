@@ -1,5 +1,5 @@
-import { Box, Container, Typography } from "@mui/material";
-import styles from "./styles.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import styles from "./styles.module.scss"
 
 const Faq = () => {
   return (
@@ -59,7 +59,7 @@ const Faq = () => {
         </Typography>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Faq;
+export default Faq

@@ -10,17 +10,19 @@ import {
   RadioGroup,
   TextField,
   Typography,
-} from "@mui/material";
-import { useForm } from "react-hook-form";
-import styles from "./styles.module.scss";
+} from "@mui/material"
+import { useForm } from "react-hook-form"
+import styles from "./styles.module.scss"
 
 const Register = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
+  } = useForm()
+  const onSubmit = (data) => {
+    // console.log(data);
+  }
 
   return (
     <Box className={styles.__wrapper}>
@@ -280,7 +282,7 @@ const Register = () => {
         </Grid>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Register;
+export default Register

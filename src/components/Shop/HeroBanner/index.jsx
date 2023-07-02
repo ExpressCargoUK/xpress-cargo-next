@@ -1,8 +1,8 @@
-import { Container, Box, Typography } from "@mui/material";
-import styles from "./styles.module.scss";
+import { Container, Box, Typography } from "@mui/material"
+import styles from "./styles.module.scss"
 
-import Man from "../../../assets/man.png";
-import Lady from "../../../assets/lady.png";
+import Man from "../../../assets/man.png"
+import Lady from "../../../assets/lady.png"
 
 const HeroBanner = () => {
   return (
@@ -69,7 +69,7 @@ const HeroBanner = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default HeroBanner;
+export default HeroBanner

@@ -1,8 +1,8 @@
-import { Box, Card, Container, Grid, Typography } from "@mui/material";
-import { TbClipboardList } from "react-icons/tb";
-import SectionHead from "../../common/SectionHead/SectionHead";
-import styles from "./our-services.module.scss";
-import Link from "next/link";
+import { Box, Card, Container, Grid, Typography } from "@mui/material"
+import Link from "next/link"
+import { TbClipboardList } from "react-icons/tb"
+import SectionHead from "../../common/SectionHead/SectionHead"
+import styles from "./our-services.module.scss"
 
 const sampleData = [
   {
@@ -40,7 +40,7 @@ const sampleData = [
     description:
       "Over the past 10 years, we have gained extensive knowledge in dealing with dangerous goods cargo.",
   },
-];
+]
 
 const OurServices = () => {
   return (
@@ -84,7 +84,7 @@ const OurServices = () => {
         </Container>
       </Box>
     </>
-  );
-};
+  )
+}
 
-export default OurServices;
+export default OurServices

@@ -1,10 +1,10 @@
-import useScrollPosition from "../../../hooks/useScrollPosition";
-import MenuItems from "./MenuItems";
+import useScrollPosition from "../../../hooks/useScrollPosition"
+import MenuItems from "./MenuItems"
 
 const Dropdown = ({ submenus, dropdown, depthLevel }) => {
-  const scrollPosition = useScrollPosition();
-  depthLevel = depthLevel + 1;
-  const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
+  const scrollPosition = useScrollPosition()
+  depthLevel = depthLevel + 1
+  const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : ""
 
   return (
     <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
@@ -17,7 +17,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
         ))}
       </div>
     </ul>
-  );
-};
+  )
+}
 
-export default Dropdown;
+export default Dropdown

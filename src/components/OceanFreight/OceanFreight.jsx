@@ -1,7 +1,7 @@
-import { Card, Container, Grid, Typography } from "@mui/material";
-import React from "react";
-import Divider from "../../common/Divider";
-import styles from "./OceanFreight.module.scss";
+import { Card, Container, Grid, Typography } from "@mui/material"
+import React from "react"
+import Divider from "../../common/Divider"
+import styles from "./OceanFreight.module.scss"
 const OceanFreight = () => {
   return (
     <div className={styles._wrapper}>
@@ -252,7 +252,7 @@ const OceanFreight = () => {
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default OceanFreight;
+export default OceanFreight

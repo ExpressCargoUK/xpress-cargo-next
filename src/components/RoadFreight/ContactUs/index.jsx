@@ -1,5 +1,5 @@
-import { Container, Box, Typography, Button } from "@mui/material";
-import Link from "next/link";
+import { Container, Box, Typography, Button } from "@mui/material"
+import Link from "next/link"
 
 const ContactUs = () => {
   return (
@@ -49,31 +49,31 @@ const ContactUs = () => {
             color: "inherit",
           }}
         >
-            <Button
-              sx={{
-                backgroundColor: "#fff",
-                border: "1px solid #0D1E58",
-                color: "#0D1E58",
-                padding: "0.8rem 2rem",
-                borderRadius: "30px",
-                textTransform: "unset",
-                fontWeight: "700",
-                fontSize: "18px",
-                marginTop: "1em",
+          <Button
+            sx={{
+              backgroundColor: "#fff",
+              border: "1px solid #0D1E58",
+              color: "#0D1E58",
+              padding: "0.8rem 2rem",
+              borderRadius: "30px",
+              textTransform: "unset",
+              fontWeight: "700",
+              fontSize: "18px",
+              marginTop: "1em",
 
-                "&:hover": {
-                  backgroundColor: "#0D1E58",
-                  border: "1px solid #fff",
-                  color: "#fff",
-                },
-              }}
-            >
-              Contact Us
-            </Button>
+              "&:hover": {
+                backgroundColor: "#0D1E58",
+                border: "1px solid #fff",
+                color: "#fff",
+              },
+            }}
+          >
+            Contact Us
+          </Button>
         </Link>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default ContactUs;
+export default ContactUs

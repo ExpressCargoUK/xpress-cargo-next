@@ -1,5 +1,5 @@
-import { Container, Box, Typography } from "@mui/material";
-import styles from "./styles.module.scss";
+import { Container, Box, Typography } from "@mui/material"
+import styles from "./styles.module.scss"
 
 const ServicesTopBanner = ({
   TitleBeforeBreak = "",
@@ -55,7 +55,7 @@ const ServicesTopBanner = ({
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default ServicesTopBanner;
+export default ServicesTopBanner

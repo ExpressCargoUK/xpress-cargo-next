@@ -1,21 +1,17 @@
-import React from "react";
-import Banner from "@/common/Banner";
-import Parcels from "@/components/Parcels/Parcels";
-import isEqual from "react-fast-compare";
-import Head from "next/head";
+import Banner from "@/common/Banner"
+import Parcels from "@/components/Parcels/Parcels"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
 
 const ParcelPage = () => {
   return (
     <>
-      <Head>
-        <title>
-          Parcel Delivery - Parcel Shipping - Send Parcels - DPD Delivery
-        </title>
-        <meta
-          name="description"
-          content="With Express Cargo, you can send your parcels worldwide using our fast, secure and door to door service parcel shipping and delivery services. Get a quote today!"
-        />
-      </Head>
+      <NextSeo
+        title="Parcel Delivery | Parcel Shipping | Send Parcels | DPD Delivery"
+        description="With Express Cargo, you can send your parcels worldwide using our fast, secure and door to door service parcel shipping and delivery services. Get a quote today!"
+      />
+
       <div>
         <Banner
           title="Parcel"
@@ -25,7 +21,7 @@ const ParcelPage = () => {
         <Parcels />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default React.memo(ParcelPage, isEqual);
+export default React.memo(ParcelPage, isEqual)

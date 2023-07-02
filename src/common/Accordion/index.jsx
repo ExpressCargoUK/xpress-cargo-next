@@ -1,15 +1,15 @@
-import { Box, Typography } from "@mui/material";
-import { useState } from "react";
-import styles from "./Accordion.module.scss";
+import { Box, Typography } from "@mui/material"
+import { useState } from "react"
+import styles from "./Accordion.module.scss"
 
 const Accordion = ({ title, subTitle, description, color }) => {
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(false)
 
   return (
     <div className={styles.accordionWrapper}>
       <div
         className={[styles.accordionTitle, isOpen ? styles.open : " "].join(
-          " "
+          " ",
         )}
         onClick={() => setOpen(!isOpen)}
       >
@@ -42,7 +42,7 @@ const Accordion = ({ title, subTitle, description, color }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Accordion;
+export default Accordion

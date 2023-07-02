@@ -1,6 +1,6 @@
-import { Container, Box, Typography, Grid } from "@mui/material";
+import { Container, Box, Typography, Grid } from "@mui/material"
 
-import styles from "./styles.module.scss";
+import styles from "./styles.module.scss"
 
 const Contact = () => {
   return (
@@ -50,7 +50,7 @@ const Contact = () => {
         </Grid>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

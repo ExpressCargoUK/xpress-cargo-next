@@ -6,9 +6,9 @@ import {
   FormControlLabel,
   TextField,
   Typography,
-} from "@mui/material";
-import styles from "./road-freight.module.scss";
-import Link from "next/link";
+} from "@mui/material"
+import styles from "./road-freight.module.scss"
+import Link from "next/link"
 
 const RoadFreight = () => {
   return (
@@ -177,7 +177,7 @@ const RoadFreight = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default RoadFreight;
+export default RoadFreight

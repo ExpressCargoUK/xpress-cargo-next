@@ -1,21 +1,17 @@
-import React from "react";
-import isEqual from "react-fast-compare";
-import Banner from "@/common/Banner";
-import CustomsSecurityInformation from "@/components/CustomsSecurityInformation/CustomsSecurityInformation";
-import Head from "next/head";
+import Banner from "@/common/Banner"
+import CustomsSecurityInformation from "@/components/CustomsSecurityInformation/CustomsSecurityInformation"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
 
 const CustomsSecurityInformationPage = () => {
   return (
     <>
-      <Head>
-        <title>
-          Import Export Info - Customs Clearance Information - Express Cargo
-        </title>
-        <meta
-          name="description"
-          content="For shippers and exporters, here is the customs and security information of formalities before choosing our air freight, sea cargo and road freight services."
-        />
-      </Head>
+      <NextSeo
+        title="Import Export Info | Customs Clearance Information"
+        description="For shippers and exporters, here is the customs and security information of formalities before choosing our air freight, sea cargo and road freight services."
+      />
+
       <div>
         <Banner
           title="Customs & Security Information"
@@ -26,7 +22,7 @@ const CustomsSecurityInformationPage = () => {
         <CustomsSecurityInformation />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default React.memo(CustomsSecurityInformationPage, isEqual);
+export default React.memo(CustomsSecurityInformationPage, isEqual)

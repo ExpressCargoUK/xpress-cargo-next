@@ -1,36 +1,36 @@
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
-import Slide from "@mui/material/Slide";
-import useMediaQuery from "@mui/material/useMediaQuery";
-import useScrollTrigger from "@mui/material/useScrollTrigger";
-import * as React from "react";
+import AppBar from "@mui/material/AppBar"
+import Box from "@mui/material/Box"
+import CssBaseline from "@mui/material/CssBaseline"
+import Slide from "@mui/material/Slide"
+import useMediaQuery from "@mui/material/useMediaQuery"
+import useScrollTrigger from "@mui/material/useScrollTrigger"
+import * as React from "react"
 
-import { Container } from "@mui/material";
-import useScrollPosition from "../../hooks/useScrollPosition";
-import styles from "./Header.module.scss";
-import NavMenu from "./NavMenu";
-import NavRightSocials from "./NavRightSocials";
-import Sidebar from "./Sidebar";
-import Link from "next/link";
+import { Container } from "@mui/material"
+import Link from "next/link"
+import useScrollPosition from "../../hooks/useScrollPosition"
+import styles from "./Header.module.scss"
+import NavMenu from "./NavMenu"
+import NavRightSocials from "./NavRightSocials"
+import Sidebar from "./Sidebar"
 
 function HideOnScroll(props) {
-  const { children, window } = props;
+  const { children, window } = props
 
   const trigger = useScrollTrigger({
     target: window ? window() : undefined,
-  });
+  })
 
   return (
     <Slide appear={false} direction="down" in={!trigger}>
       {children}
     </Slide>
-  );
+  )
 }
 
 const Header = (props) => {
-  const matches = useMediaQuery("(max-width: 1124px)");
-  const scrollPosition = useScrollPosition();
+  const matches = useMediaQuery("(max-width: 1124px)")
+  const scrollPosition = useScrollPosition()
 
   return (
     <React.Fragment>
@@ -52,7 +52,7 @@ const Header = (props) => {
                 <img
                   src={
                     scrollPosition > 50
-                      ? "/assets/images/logo2.png"
+                      ? "/assets/images/logo-black.png"
                       : "/assets/images/logo.png"
                   }
                   alt="logo"
@@ -72,7 +72,7 @@ const Header = (props) => {
       </HideOnScroll>
       {/* <Toolbar sx={{ mb: 1 }} /> */}
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

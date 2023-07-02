@@ -1,9 +1,9 @@
-import { Container, Box, Typography, Grid } from "@mui/material";
-import Divider from "../../../common/Divider";
-import NewsCard from "../../../common/NewsCard";
-import { recentNews } from "../../../data";
+import { Container, Box, Typography, Grid } from "@mui/material"
+import Divider from "../../../common/Divider"
+import NewsCard from "../../../common/NewsCard"
+import { recentNews } from "../../../data"
 
-import styles from "./styles.module.scss";
+import styles from "./styles.module.scss"
 
 const RecentNews = () => {
   return (
@@ -43,7 +43,7 @@ const RecentNews = () => {
         </Box> */}
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default RecentNews;
+export default RecentNews

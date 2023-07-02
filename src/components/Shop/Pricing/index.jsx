@@ -1,6 +1,6 @@
-import { Container, Box, Typography, Grid, Card } from "@mui/material";
-import { pricing } from "../../../data";
-import styles from "./styles.module.scss";
+import { Container, Box, Typography, Grid, Card } from "@mui/material"
+import { pricing } from "../../../data"
+import styles from "./styles.module.scss"
 
 const Pricing = () => {
   return (
@@ -63,7 +63,7 @@ const Pricing = () => {
         </Grid>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Pricing;
+export default Pricing

@@ -1,3 +1,5 @@
+import FCSuccess from "@/common/FCSuccess"
+import styles from "@/styles/QuotationForm.module.scss"
 import {
   Box,
   Button,
@@ -11,64 +13,57 @@ import {
   TextareaAutosize,
   TextField,
   Typography,
-} from "@mui/material";
-import React, { useState } from "react";
-import isEqual from "react-fast-compare";
-import { useForm } from "react-hook-form";
-import emailjs from "emailjs-com";
-import ReCAPTCHA from "react-google-recaptcha";
-import styles from "@/styles/QuotationForm.module.scss";
-import FCSuccess from "@/common/FCSuccess";
-import Head from "next/head";
+} from "@mui/material"
+import emailjs from "emailjs-com"
+import { NextSeo } from "next-seo"
+import React, { useState } from "react"
+import isEqual from "react-fast-compare"
+import ReCAPTCHA from "react-google-recaptcha"
+import { useForm } from "react-hook-form"
 
 const QuotationForm = () => {
-  const [varilization, setVarilization] = useState(false);
-  const [success, setSuccess] = useState(false);
+  const [varilization, setVarilization] = useState(false)
+  const [success, setSuccess] = useState(false)
   const {
     register,
     handleSubmit,
     formState: { errors },
     reset,
-  } = useForm();
+  } = useForm()
   const onSubmit = (data) => {
     if (varilization) {
       emailjs
         .send("service_orhth3q", "template_5nleln6", data, "ydXRP5u6kT9XoAg3H")
         .then(
           (result) => {
-            console.log(result.text);
-            setSuccess(true);
+            // console.log(result.text);
+            setSuccess(true)
           },
           (error) => {
-            console.log(error.text);
-          }
-        );
+            // console.log(error.text);
+          },
+        )
     }
-    reset();
-    setVarilization(false);
+    reset()
+    setVarilization(false)
 
     setTimeout(() => {
-      setSuccess(false);
-    }, 6000);
-  };
+      setSuccess(false)
+    }, 6000)
+  }
 
   const handleVarilization = (value) => {
     if (value) {
-      setVarilization(true);
+      setVarilization(true)
     }
-  };
+  }
 
   return (
     <>
-      <Head>
-        <title>
-          Freight Shipping Quote - Parcel Quotes - Express Cargo UK LTD
-        </title>
-        <meta
-          name="description"
-          content="Get a freight shipping quote by carefully submitting the form. We provide cargo services to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
-        />
-      </Head>
+      <NextSeo
+        title="Freight Shipping Quote | Parcel Quotes"
+        description="Get a freight shipping quote by carefully submitting the form. We provide cargo services to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
+      />
       <Box className={styles.__wrapper}>
         {success && (
           <FCSuccess text="Thank you for submitting your information" />
@@ -774,7 +769,7 @@ const QuotationForm = () => {
         </Container>
       </Box>
     </>
-  );
-};
+  )
+}
 
-export default React.memo(QuotationForm, isEqual);
+export default React.memo(QuotationForm, isEqual)

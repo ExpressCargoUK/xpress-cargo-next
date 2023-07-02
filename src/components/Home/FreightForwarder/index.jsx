@@ -1,9 +1,9 @@
-import { Container, Box, Typography, Button } from "@mui/material";
+import { Container, Box, Typography, Button } from "@mui/material"
 
-import Divider from "../../../common/Divider";
+import Divider from "../../../common/Divider"
 
-import styles from "./styles.module.scss";
-import Link from "next/link";
+import styles from "./styles.module.scss"
+import Link from "next/link"
 
 const FreightForwarder = () => {
   return (
@@ -47,23 +47,23 @@ const FreightForwarder = () => {
             href="/help-tracking/quotation-form"
             style={{ textDecoration: "none" }}
           >
-              <Button
-                size="medium"
-                variant="contained"
-                sx={{
-                  backgroundColor: "#1c252e",
-                  color: "#fff",
-                  padding: "10px 25px",
-                  borderRadius: "30px",
+            <Button
+              size="medium"
+              variant="contained"
+              sx={{
+                backgroundColor: "#1c252e",
+                color: "#fff",
+                padding: "10px 25px",
+                borderRadius: "30px",
 
-                  "&:hover": {
-                    backgroundColor: "#151c24",
-                    color: "#fff",
-                  },
-                }}
-              >
-                Get a Quick Quote
-              </Button>
+                "&:hover": {
+                  backgroundColor: "#151c24",
+                  color: "#fff",
+                },
+              }}
+            >
+              Get a Quick Quote
+            </Button>
           </Link>
 
           <div style={{ height: "50px" }} aria-hidden="true" />
@@ -72,7 +72,7 @@ const FreightForwarder = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default FreightForwarder;
+export default FreightForwarder

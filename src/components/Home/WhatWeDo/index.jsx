@@ -1,8 +1,8 @@
-import { Container, Box, Typography } from "@mui/material";
-import Accordion from "../../../common/Accordion";
-import Divider from "../../../common/Divider";
-import { faqs } from "../../../data";
-import styles from "./styles.module.scss";
+import { Container, Box, Typography } from "@mui/material"
+import Accordion from "../../../common/Accordion"
+import Divider from "../../../common/Divider"
+import { faqs } from "../../../data"
+import styles from "./styles.module.scss"
 
 const WhatWeDo = () => {
   return (
@@ -43,7 +43,7 @@ const WhatWeDo = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default WhatWeDo;
+export default WhatWeDo

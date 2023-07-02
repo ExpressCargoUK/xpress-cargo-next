@@ -1,8 +1,8 @@
-import { Container, Box, Typography, Grid } from "@mui/material";
-import Divider from "../../../common/Divider";
-import ServiceCard from "../../../common/ServiceCard";
-import { services } from "../../../data";
-import styles from "./styles.module.scss";
+import { Container, Box, Typography, Grid } from "@mui/material"
+import Divider from "../../../common/Divider"
+import ServiceCard from "../../../common/ServiceCard"
+import { services } from "../../../data"
+import styles from "./styles.module.scss"
 
 const Services = ({
   title = "Services We Offer",
@@ -51,7 +51,7 @@ const Services = ({
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Services;
+export default Services

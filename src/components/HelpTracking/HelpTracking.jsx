@@ -1,45 +1,45 @@
-import { Container, Typography, TextField, Stack, Button } from "@mui/material";
-import React, { useState } from "react";
-import styles from "./HelpTracking.module.scss";
+import { Button, Container, Stack, TextField, Typography } from "@mui/material"
+import { useState } from "react"
+import styles from "./HelpTracking.module.scss"
 
 const HelpTracking = () => {
-  const [commodityCode, setCommodityCode] = useState("");
-  const [EoriNumber, setEoriNumber] = useState("");
+  const [commodityCode, setCommodityCode] = useState("")
+  const [EoriNumber, setEoriNumber] = useState("")
 
   const handleCommodityCode = () => {
     if (commodityCode?.length > 0) {
       window.open(
         `https://www.trade-tariff.service.gov.uk/commodities/${commodityCode}`,
-        "_blank"
-      );
+        "_blank",
+      )
 
-      setCommodityCode("");
+      setCommodityCode("")
     }
-  };
+  }
 
   const handleEoriNumber = () => {
     if (EoriNumber?.length > 0) {
       window.open(
         `https://ec.europa.eu/taxation_customs/dds2/eos/eori_validation.jsp?Lang=en&EoriNumb=${EoriNumber}&Expand=true`,
-        "_blank"
-      );
+        "_blank",
+      )
 
-      setEoriNumber("");
+      setEoriNumber("")
     }
-  };
+  }
 
   const handleCommoditySubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault()
     window.open(
       "",
-      "_new"
-    ).document.location.href = `https://www.trade-tariff.service.gov.uk/search?utf8=%E2%9C%93&year=2019&q=${event.target.keywords.value}`;
-  };
+      "_new",
+    ).document.location.href = `https://www.trade-tariff.service.gov.uk/search?utf8=%E2%9C%93&year=2019&q=${event.target.keywords.value}`
+  }
 
   return (
     <div className={styles._wrapper}>
       <Container>
-        <div className={styles._content}>
+        <div className={styles._content} id="awb-tracking">
           <Typography variant="h6" color="inherit" className={styles._title}>
             AWB Tracking
           </Typography>
@@ -107,7 +107,7 @@ const HelpTracking = () => {
             123-12345678).
           </Typography>
         </div>
-        <div className={styles._content}>
+        <div className={styles._content} id="commodity-code-finder">
           <Typography variant="h6" color="inherit" className={styles._title}>
             Commodity code finder
           </Typography>
@@ -207,7 +207,7 @@ const HelpTracking = () => {
           </Typography>
         </div>
 
-        <div className={styles._content}>
+        <div className={styles._content} id="eori-number">
           <Typography variant="h6" color="inherit" className={styles._title}>
             Eori Number
           </Typography>
@@ -279,7 +279,7 @@ const HelpTracking = () => {
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default HelpTracking;
+export default HelpTracking

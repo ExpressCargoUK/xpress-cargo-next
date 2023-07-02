@@ -1,21 +1,16 @@
-import React from "react";
-import isEqual from "react-fast-compare";
-import Banner from "@/common/Banner";
-import Faq from "@/components/CustomClearance/Faq";
-import Head from "next/head";
+import Banner from "@/common/Banner"
+import Faq from "@/components/CustomClearance/Faq"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
 
 const CustomClearance = () => {
   return (
     <>
-      <Head>
-        <title>
-          Customs Clearance UK - Express Cargo - Customs Clearance Service
-        </title>
-        <meta
-          name="description"
-          content="At Express Cargo, we provide fast customs clearance of shipments arriving at all Ports and Airports nationwide. Book us for customs clearance service in UK."
-        />
-      </Head>
+      <NextSeo
+        title="Customs Clearance UK | Express Cargo | Customs Clearance Service"
+        description="At Express Cargo, we provide fast customs clearance of shipments arriving at all Ports and Airports nationwide. Book us for customs clearance service in UK."
+      />
       <Banner
         title="Customs Clearance"
         subTitle="Express Cargo UK Ltd provides a comprehensive customs clearance service for import shipments arriving at all UK ports and airports."
@@ -23,7 +18,7 @@ const CustomClearance = () => {
       <Faq />
       {/* <Contact /> */}
     </>
-  );
-};
+  )
+}
 
-export default React.memo(CustomClearance, isEqual);
+export default React.memo(CustomClearance, isEqual)

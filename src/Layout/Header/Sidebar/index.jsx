@@ -1,22 +1,22 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import SwipeableDrawer from "@mui/material/SwipeableDrawer";
-import IconButton from "@mui/material/IconButton";
+import * as React from "react"
+import Box from "@mui/material/Box"
+import SwipeableDrawer from "@mui/material/SwipeableDrawer"
+import IconButton from "@mui/material/IconButton"
 
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@mui/icons-material/Menu"
+import CloseIcon from "@mui/icons-material/Close"
 
-import styles from "./styles.module.scss";
-import { useMediaQuery } from "@mui/material";
-import { navMenuData } from "../../../data";
-import NavRightSocials from "../NavRightSocials";
-import Link from "next/link";
+import styles from "./styles.module.scss"
+import { useMediaQuery } from "@mui/material"
+import { navMenuData } from "../../../data"
+import NavRightSocials from "../NavRightSocials"
+import Link from "next/link"
 
 const Sidebar = () => {
-  const mobile = useMediaQuery("(max-width: 768px)");
+  const mobile = useMediaQuery("(max-width: 768px)")
   const [state, setState] = React.useState({
     right: false,
-  });
+  })
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -24,11 +24,11 @@ const Sidebar = () => {
       event.type === "keydown" &&
       (event.key === "Tab" || event.key === "Shift")
     ) {
-      return;
+      return
     }
 
-    setState({ ...state, [anchor]: open });
-  };
+    setState({ ...state, [anchor]: open })
+  }
 
   const list = (anchor) => (
     <Box
@@ -54,7 +54,7 @@ const Sidebar = () => {
                   </Box>
                 ))}
             </Box>
-          );
+          )
         })}
 
         <Box
@@ -78,7 +78,7 @@ const Sidebar = () => {
         <CloseIcon sx={{ color: "#fff" }} />
       </IconButton>
     </Box>
-  );
+  )
 
   return (
     <div>
@@ -95,7 +95,7 @@ const Sidebar = () => {
         {list("right")}
       </SwipeableDrawer>
     </div>
-  );
-};
+  )
+}
 
-export default Sidebar;
+export default Sidebar

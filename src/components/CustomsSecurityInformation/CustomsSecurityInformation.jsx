@@ -1,8 +1,8 @@
-import { Box, Container, Typography } from "@mui/material";
-import React from "react";
+import { Box, Container, Typography } from "@mui/material"
+import React from "react"
 // import Accordion from "../../common/Accordion";
 // import { parcelPackageData2 } from "../../data";
-import styles from "./CustomsSecurityInformation.module.scss";
+import styles from "./CustomsSecurityInformation.module.scss"
 
 const CustomsSecurityInformation = () => {
   return (
@@ -275,7 +275,7 @@ const CustomsSecurityInformation = () => {
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default CustomsSecurityInformation;
+export default CustomsSecurityInformation

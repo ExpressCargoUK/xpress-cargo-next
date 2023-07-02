@@ -1,7 +1,7 @@
-import { Box, Typography } from "@mui/material";
-import Marquee from "react-fast-marquee";
-import { retailers } from "../../../data";
-import styles from "./styles.module.scss";
+import { Box, Typography } from "@mui/material"
+import Marquee from "react-fast-marquee"
+import { retailers } from "../../../data"
+import styles from "./styles.module.scss"
 
 const Retailers = () => {
   return (
@@ -16,7 +16,7 @@ const Retailers = () => {
         ))}
       </Marquee>
     </Box>
-  );
-};
+  )
+}
 
-export default Retailers;
+export default Retailers

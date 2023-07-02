@@ -1,7 +1,7 @@
-import { Container, Box, Typography } from "@mui/material";
-import Accordion from "../../../common/Accordion";
-import Divider from "../../../common/Divider";
-import { roadFreightBenefits } from "../../../data";
+import { Container, Box, Typography } from "@mui/material"
+import Accordion from "../../../common/Accordion"
+import Divider from "../../../common/Divider"
+import { roadFreightBenefits } from "../../../data"
 
 const Benefits = ({ title, data }) => {
   return (
@@ -45,7 +45,7 @@ const Benefits = ({ title, data }) => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Benefits;
+export default Benefits

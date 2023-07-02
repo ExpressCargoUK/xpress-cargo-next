@@ -1,23 +1,18 @@
-import React from "react";
-import isEqual from "react-fast-compare";
-import Banner from "@/common/Banner";
-import About from "@/components/AboutUs/AboutUs";
-import Mission from "@/components/Mission/Mission";
-import Head from "next/head";
+import Banner from "@/common/Banner"
+import About from "@/components/AboutUs/AboutUs"
+import Mission from "@/components/Mission/Mission"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
 
 const AboutUs = () => {
   return (
     <>
-      <Head>
-        <title>
-          Express Cargo UK LTD - Freight Forwarder Specialist - Import Export
-          Company
-        </title>
-        <meta
-          name="description"
-          content="Express Cargo, a Manchester, UK based freight forwarder specialist, import and export goods to Saudi Arabia, Kuwait, Qatar, UAE, Nigeria, India, Pakistan, etc."
-        />
-      </Head>
+      <NextSeo
+        title="Express Cargo UK Ltd | Freight Forwarder Specialist | Import Export
+        Company"
+        description="Express Cargo, a Manchester, UK based freight forwarder specialist, import and export goods to Saudi Arabia, Kuwait, Qatar, UAE, Nigeria, India, Pakistan, etc."
+      />
       <Banner
         title="Express Cargo UK LTD"
         subTitle="We bring a modern touch to the world of freight forwarding, ensuring
@@ -27,7 +22,7 @@ const AboutUs = () => {
       <Mission />
       <About />
     </>
-  );
-};
+  )
+}
 
-export default React.memo(AboutUs, isEqual);
+export default React.memo(AboutUs, isEqual)

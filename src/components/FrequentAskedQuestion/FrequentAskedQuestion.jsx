@@ -1,8 +1,8 @@
-import { Box, Container, Typography } from "@mui/material";
-import Accordion from "../../common/Accordion";
-import VideoPlayer from "../../common/VideoPlayer/VideoPlayer";
-import { FrequentAskedQuestionData } from "../../data";
-import styles from "./frequent-asked-question.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import Accordion from "../../common/Accordion"
+import VideoPlayer from "../../common/VideoPlayer/VideoPlayer"
+import { FrequentAskedQuestionData } from "../../data"
+import styles from "./frequent-asked-question.module.scss"
 
 const FrequentAskedQuestionComponent = () => {
   return (
@@ -48,12 +48,12 @@ const FrequentAskedQuestionComponent = () => {
                   ))}
                 </div>
               </Box>
-            )
+            ),
           )}
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default FrequentAskedQuestionComponent;
+export default FrequentAskedQuestionComponent

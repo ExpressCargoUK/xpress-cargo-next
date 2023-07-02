@@ -1,7 +1,7 @@
-import { Container, Grid, Typography } from "@mui/material";
-import React from "react";
-import Divider from "../../common/Divider";
-import styles from "./ShopAndShip.module.scss";
+import { Container, Grid, Typography } from "@mui/material"
+import React from "react"
+import Divider from "../../common/Divider"
+import styles from "./ShopAndShip.module.scss"
 
 const ShopAndShip = () => {
   return (
@@ -61,7 +61,7 @@ const ShopAndShip = () => {
         </Grid>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default ShopAndShip;
+export default ShopAndShip

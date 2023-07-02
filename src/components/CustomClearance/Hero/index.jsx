@@ -1,5 +1,5 @@
-import { Container, Box, Typography, Grid } from "@mui/material";
-import styles from "./styles.module.scss";
+import { Container, Box, Typography, Grid } from "@mui/material"
+import styles from "./styles.module.scss"
 
 const Hero = () => {
   return (
@@ -38,7 +38,7 @@ const Hero = () => {
         </Container>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

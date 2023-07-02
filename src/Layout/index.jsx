@@ -1,6 +1,6 @@
-import Footer from "./Footer";
-import Header from "./Header";
-import styles from "./styles.module.scss";
+import Footer from "./Footer"
+import Header from "./Header"
+import styles from "./styles.module.scss"
 
 const Layout = ({ children }) => {
   return (
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <div className={styles.main}>{children}</div>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout

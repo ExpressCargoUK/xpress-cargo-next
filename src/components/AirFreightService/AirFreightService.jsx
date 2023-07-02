@@ -1,7 +1,7 @@
-import { Box, Container, Typography } from "@mui/material";
-import Accordion from "../../common/Accordion";
-import Divider from "../../common/Divider";
-import styles from "./AirFreightServiceComponent.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import Accordion from "../../common/Accordion"
+import Divider from "../../common/Divider"
+import styles from "./AirFreightServiceComponent.module.scss"
 
 const data = [
   {
@@ -26,7 +26,7 @@ const data = [
     description:
       "<ul><li><p>Domestic collection and delivery service</p></li> <li><p>Oversized cargo</p></li><li><p>Residential delivery</p></li><li><p>Consolidation</p></li><li><p>Storage and distribution</p></li></ul>",
   },
-];
+]
 
 const AirFreightServiceComponent = () => {
   return (
@@ -64,7 +64,7 @@ const AirFreightServiceComponent = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default AirFreightServiceComponent;
+export default AirFreightServiceComponent

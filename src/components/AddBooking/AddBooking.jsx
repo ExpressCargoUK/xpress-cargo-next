@@ -1,33 +1,33 @@
-import React, { useState } from "react";
-import { useForm, useFieldArray } from "react-hook-form";
-import emailjs from "emailjs-com";
-import ReCAPTCHA from "react-google-recaptcha";
-import styles from "./AddBooking.module.scss";
-import FCSuccess from "../../common/FCSuccess";
 import {
+  Box,
+  Button,
   Container,
   FormControl,
+  FormControlLabel,
+  FormLabel,
+  Grid,
+  InputLabel,
+  MenuItem,
+  Select,
+  Stack,
   TextField,
   Typography,
-  Grid,
-  Stack,
-  Box,
-  FormLabel,
-  FormControlLabel,
-  Button,
-  InputLabel,
-  Select,
-  MenuItem,
-} from "@mui/material";
-import FCDatePicker from "../../common/FCDatePicker";
-import dayjs from "dayjs";
-import axios from "axios";
-import FormGroup from "@mui/material/FormGroup";
-import Checkbox from "@mui/material/Checkbox";
+} from "@mui/material"
+import Checkbox from "@mui/material/Checkbox"
+import FormGroup from "@mui/material/FormGroup"
+import axios from "axios"
+import dayjs from "dayjs"
+import emailjs from "emailjs-com"
+import React, { useState } from "react"
+import ReCAPTCHA from "react-google-recaptcha"
+import { useFieldArray, useForm } from "react-hook-form"
+import FCDatePicker from "../../common/FCDatePicker"
+import FCSuccess from "../../common/FCSuccess"
+import styles from "./AddBooking.module.scss"
 
 const AddBooking = () => {
-  const [today, setDay] = useState(null);
-  const [requestedBooking, setRequestedBooking] = useState(null);
+  const [today, setDay] = useState(null)
+  const [requestedBooking, setRequestedBooking] = useState(null)
   const [shippingMethod, setShippingMethod] = React.useState({
     parcel: true,
     road: false,
@@ -36,48 +36,48 @@ const AddBooking = () => {
     lcl: false,
     fcl: false,
     ro: false,
-  });
+  })
   const [additionalServices, setAdditionalServices] = React.useState({
     warehousing: true,
     collection: false,
     packaging: false,
     insurance: true,
-  });
-  const [reasonForExport, setReasonForExport] = useState("");
+  })
+  const [reasonForExport, setReasonForExport] = useState("")
   // const [packageType, setPackageType] = useState("box");
-  const [packageTypeNumber, setPackageTypeNumber] = useState(1);
+  const [packageTypeNumber, setPackageTypeNumber] = useState(1)
 
   const handleReasonForExportChange = (event) => {
-    setReasonForExport(event.target.value);
-  };
+    setReasonForExport(event.target.value)
+  }
 
   // const handlePackageTypeChange = (event) => {
   //   setPackageType(event.target.value);
   // };
 
   const handlePackageTypeNumberChange = (event) => {
-    setPackageTypeNumber(event.target.value);
-  };
+    setPackageTypeNumber(event.target.value)
+  }
 
-  const { parcel, road, airCargo, seaCargo, lcl, fcl, ro } = shippingMethod;
-  const { warehousing, collection, packaging, insurance } = additionalServices;
+  const { parcel, road, airCargo, seaCargo, lcl, fcl, ro } = shippingMethod
+  const { warehousing, collection, packaging, insurance } = additionalServices
 
   const handleShippingMethodChange = (event) => {
     setShippingMethod({
       ...shippingMethod,
       [event.target.name]: event.target.checked,
-    });
-  };
+    })
+  }
 
   const handleAdditionalServicesChange = (event) => {
     setAdditionalServices({
       ...additionalServices,
       [event.target.name]: event.target.checked,
-    });
-  };
+    })
+  }
 
-  const [varilization, setVarilization] = useState(false);
-  const [success, setSuccess] = useState(false);
+  const [varilization, setVarilization] = useState(false)
+  const [success, setSuccess] = useState(false)
   const {
     register,
     handleSubmit,
@@ -96,12 +96,12 @@ const AddBooking = () => {
         },
       ],
     },
-  });
+  })
 
   const { fields } = useFieldArray({
     control,
     name: "pkgType",
-  });
+  })
 
   const onSubmit = (data) => {
     const sheetData = {
@@ -133,7 +133,7 @@ const AddBooking = () => {
       // "Package type": packageType,
       "Package type list": data.pkgType,
       "Description OfItem": data.descriptionOfItem,
-    };
+    }
 
     const formData = {
       ...data,
@@ -144,7 +144,7 @@ const AddBooking = () => {
       // packageType,
       pkgType: JSON.stringify(data.pkgType),
       additionalServices: JSON.stringify(additionalServices),
-    };
+    }
 
     if (varilization) {
       emailjs
@@ -152,44 +152,44 @@ const AddBooking = () => {
           "service_orhth3q",
           "template_3a5vver",
           formData,
-          "ydXRP5u6kT9XoAg3H"
+          "ydXRP5u6kT9XoAg3H",
         )
         .then(
           (result) => {
-            console.log(result.text);
-            setSuccess(true);
+            // console.log(result.text);
+            setSuccess(true)
           },
           (error) => {
-            console.log(error.text);
-          }
-        );
+            // console.log(error.text);
+          },
+        )
     }
     axios
       .post(
         "https://sheet.best/api/sheets/345bfd8b-dbac-42fb-9a59-ab0fc78bb4e3",
-        sheetData
+        sheetData,
       )
       .then((res) => {
         if (res.status === 200) {
-          console.log("Data has been sent to the server");
+          // console.log("Data has been sent to the server");
         }
       })
       .catch(function (error) {
-        console.log(error);
-      });
-    reset();
-    setVarilization(false);
+        // console.log(error);
+      })
+    reset()
+    setVarilization(false)
 
     setTimeout(() => {
-      setSuccess(false);
-    }, 6000);
-  };
+      setSuccess(false)
+    }, 6000)
+  }
 
   const handleVarilization = (value) => {
     if (value) {
-      setVarilization(true);
+      setVarilization(true)
     }
-  };
+  }
   return (
     <div className={styles._wrapper}>
       {success && (
@@ -997,8 +997,8 @@ const AddBooking = () => {
                           />
                         </FormControl>
                       </Stack>
-                    );
-                  }
+                    )
+                  },
                 )}
               </Box>
 
@@ -1050,7 +1050,7 @@ const AddBooking = () => {
         </Grid>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default AddBooking;
+export default AddBooking

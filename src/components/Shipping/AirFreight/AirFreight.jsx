@@ -6,9 +6,9 @@ import {
   FormControlLabel,
   TextField,
   Typography,
-} from "@mui/material";
-import styles from "./air-freight.module.scss";
-import Link from "next/link";
+} from "@mui/material"
+import styles from "./air-freight.module.scss"
+import Link from "next/link"
 
 const AirFreight = () => {
   return (
@@ -166,7 +166,7 @@ const AirFreight = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default AirFreight;
+export default AirFreight

@@ -7,15 +7,15 @@ import {
   Select,
   TextField,
   Typography,
-} from "@mui/material";
-import { useState } from "react";
-import styles from "./sea-freight.module.scss";
-import Link from "next/link";
+} from "@mui/material"
+import { useState } from "react"
+import styles from "./sea-freight.module.scss"
+import Link from "next/link"
 
 const SeaFreight = () => {
-  const [service, setService] = useState("");
+  const [service, setService] = useState("")
 
-  const handleService = (e) => setService(e.target.value);
+  const handleService = (e) => setService(e.target.value)
 
   return (
     <Box className={styles["air-freight__wrapper"]}>
@@ -135,7 +135,7 @@ const SeaFreight = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default SeaFreight;
+export default SeaFreight

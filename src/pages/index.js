@@ -1,25 +1,20 @@
-import React from "react";
-import ContactUsForm from "@/components/Contact/Contact";
-import Banner from "@/common/Banner";
-import FreightForwarder from "@/components/Home/FreightForwarder";
-import RecentNews from "@/components/Home/RecentNews";
-import Services from "@/components/Home/Services";
-import WhatWeDo from "@/components/Home/WhatWeDo";
-import isEqual from "react-fast-compare";
-import Head from "next/head";
+import Banner from "@/common/Banner"
+import ContactUsForm from "@/components/Contact/Contact"
+import FreightForwarder from "@/components/Home/FreightForwarder"
+import RecentNews from "@/components/Home/RecentNews"
+import Services from "@/components/Home/Services"
+import WhatWeDo from "@/components/Home/WhatWeDo"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
 
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>
-          Express Cargo - Freight Forwarding Agency - UK Shipping Company
-        </title>
-        <meta
-          name="description"
-          content="Express Cargo is a UK shipping and Freight forwarding agency offering cargo services to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
-        />
-      </Head>
+      <NextSeo
+        title="Express Cargo | Freight Forwarding Agency | UK Shipping Company"
+        description="Express Cargo is a UK shipping and Freight forwarding agency offering cargo services to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
+      />
       <Banner
         title="Simple Freight Forwarding"
         subTitle=" We bring a modern touch to the world of freight forwarding, ensuring
@@ -35,7 +30,7 @@ const Home = () => {
       {/* <Contact /> */}
       <ContactUsForm />
     </>
-  );
-};
+  )
+}
 
-export default React.memo(Home, isEqual);
+export default React.memo(Home, isEqual)

@@ -1,5 +1,5 @@
-import { Box, Container, Typography } from "@mui/material";
-import styles from "./about-us.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import styles from "./about-us.module.scss"
 
 const About = () => {
   return (
@@ -37,7 +37,7 @@ const About = () => {
         </Container>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default About;
+export default About

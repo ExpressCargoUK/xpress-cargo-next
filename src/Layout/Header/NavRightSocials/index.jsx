@@ -1,8 +1,8 @@
-import SocialIcon from "../../../common/SocialIcon";
-import styles from "./styles.module.scss";
+import SocialIcon from "../../../common/SocialIcon"
+import styles from "./styles.module.scss"
 
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa"
+import { FiInstagram } from "react-icons/fi"
 
 const NavRightSocials = () => {
   return (
@@ -47,7 +47,7 @@ const NavRightSocials = () => {
         </SocialIcon>
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default NavRightSocials;
+export default NavRightSocials

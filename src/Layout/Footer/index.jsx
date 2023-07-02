@@ -1,23 +1,23 @@
-import { Box, Container, Grid, Stack, Typography } from "@mui/material";
-import { footerCountry, footerData } from "../../data";
+import { Box, Container, Grid, Stack, Typography } from "@mui/material"
+import { footerCountry, footerData } from "../../data"
 
-import { FaFacebookF, FaPhoneAlt, FaTwitter } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { MdEmail, MdLocationOn } from "react-icons/md";
+import { FaFacebookF, FaPhoneAlt, FaTwitter } from "react-icons/fa"
+import { FiInstagram } from "react-icons/fi"
+import { MdEmail, MdLocationOn } from "react-icons/md"
 
-import { useState } from "react";
-import SocialIcon from "../../common/SocialIcon";
-import styles from "./Footer.module.scss";
-import Link from "next/link";
+import Link from "next/link"
+import { useState } from "react"
+import SocialIcon from "../../common/SocialIcon"
+import styles from "./Footer.module.scss"
 
 const Footer = () => {
-  const [displayCount, setDisplayCount] = useState(5);
+  const [displayCount, setDisplayCount] = useState(5)
   // console.log(displayCount, footerCountry[0].submenu.length);
 
-  const sliceLinks = footerCountry[0].submenu.slice(0, 0);
+  const sliceLinks = footerCountry[0].submenu.slice(0, 0)
   // console.log(sliceLinks);
 
-  const handleMoreLinks = () => setDisplayCount(displayCount + 5);
+  const handleMoreLinks = () => setDisplayCount(displayCount + 5)
 
   return (
     <footer className={styles.__wrapper}>
@@ -168,9 +168,7 @@ const Footer = () => {
             </Box>
           </Grid>
         </Grid>
-        <br />
-        <br />
-        <Grid container>
+        {/* <Grid container>
           {footerCountry.map(({ title, submenu }, i) => (
             <Grid item xs={12} sm={6} lg={3} key={`${title}_${i}`}>
               <Box className={styles.menu__box}>
@@ -211,10 +209,10 @@ const Footer = () => {
               </Box>
             </Grid>
           ))}
-        </Grid>
+        </Grid> */}
       </Container>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

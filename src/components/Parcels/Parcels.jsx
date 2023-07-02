@@ -1,7 +1,7 @@
-import { Container, Grid, Typography } from "@mui/material";
-import Marquee from "react-fast-marquee";
-import React from "react";
-import styles from "./Parcels.module.scss";
+import { Container, Grid, Typography } from "@mui/material"
+import Marquee from "react-fast-marquee"
+import React from "react"
+import styles from "./Parcels.module.scss"
 
 const logos = [
   "/assets/images/parcel/dpduk.png",
@@ -24,7 +24,7 @@ const logos = [
   "/assets/images/parcel/United_Parcel_Service.png",
   "/assets/images/parcel/DHL-Logo.png",
   "/assets/images/parcel/fedex.png",
-];
+]
 
 const Parcels = () => {
   return (
@@ -108,7 +108,7 @@ const Parcels = () => {
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default Parcels;
+export default Parcels

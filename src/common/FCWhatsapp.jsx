@@ -1,7 +1,5 @@
-import React from "react";
-
-import WhatsAppWidget from "react-whatsapp-chat-widget";
-import "react-whatsapp-chat-widget/index.css";
+import WhatsAppWidget from "react-whatsapp-chat-widget"
+import "react-whatsapp-chat-widget/index.css"
 
 const FCWhatsapp = () => {
   return (
@@ -17,7 +15,7 @@ const FCWhatsapp = () => {
       iconSize="40"
       iconColor="white"
       iconBgColor="#031224"
-      headerIcon="/logo.png"
+      headerIcon="/assets/images/logo-black.png"
       headerIconColor="pink"
       headerTxtColor="white"
       headerBgColor="#031224"
@@ -37,7 +35,7 @@ const FCWhatsapp = () => {
       btnTxt="Start Chat"
       btnTxtColor="#fff"
     />
-  );
-};
+  )
+}
 
-export default FCWhatsapp;
+export default FCWhatsapp

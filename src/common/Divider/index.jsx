@@ -1,7 +1,7 @@
-import styles from "./styles.module.scss";
+import styles from "./styles.module.scss"
 
 const Divider = () => {
-  return <hr className={styles.separator} />;
-};
+  return <hr className={styles.separator} />
+}
 
-export default Divider;
+export default Divider

@@ -1,5 +1,5 @@
-import { Box, Container, Typography } from "@mui/material";
-import styles from "./section-head.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import styles from "./section-head.module.scss"
 
 const SectionHead = ({ bgImage, title, description }) => {
   return (
@@ -16,7 +16,7 @@ const SectionHead = ({ bgImage, title, description }) => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default SectionHead;
+export default SectionHead

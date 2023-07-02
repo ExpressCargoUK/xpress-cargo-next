@@ -1,6 +1,6 @@
-import { Container, Box, Typography } from "@mui/material";
-import Divider from "../../../common/Divider";
-import styles from "./styles.module.scss";
+import { Container, Box, Typography } from "@mui/material"
+import Divider from "../../../common/Divider"
+import styles from "./styles.module.scss"
 
 const ServiceDetails = () => {
   return (
@@ -64,7 +64,7 @@ const ServiceDetails = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default ServiceDetails;
+export default ServiceDetails

@@ -1,7 +1,7 @@
-import { Box, Container, Typography } from "@mui/material";
-import Accordion from "../../common/Accordion";
-import { parcelPackageData, parcelPackageData2 } from "../../data";
-import styles from "./packer-your-items.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import Accordion from "../../common/Accordion"
+import { parcelPackageData, parcelPackageData2 } from "../../data"
+import styles from "./packer-your-items.module.scss"
 
 const PackageYourItemsComponents = () => {
   return (
@@ -154,7 +154,7 @@ const PackageYourItemsComponents = () => {
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default PackageYourItemsComponents;
+export default PackageYourItemsComponents

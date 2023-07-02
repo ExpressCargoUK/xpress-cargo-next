@@ -1,5 +1,5 @@
-import { Box, Container, Typography } from "@mui/material";
-import styles from "./shipping-head.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import styles from "./shipping-head.module.scss"
 
 const ShippingHead = ({ bgImg, title, description }) => {
   return (
@@ -16,7 +16,7 @@ const ShippingHead = ({ bgImg, title, description }) => {
         </Container>
       </Box>
     </Box>
-  );
-};
+  )
+}
 
-export default ShippingHead;
+export default ShippingHead

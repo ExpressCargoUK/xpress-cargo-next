@@ -12,34 +12,34 @@ import {
   TextareaAutosize,
   TextField,
   Typography,
-} from "@mui/material";
-import { useState } from "react";
-import { useForm } from "react-hook-form";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { BsFacebook } from "react-icons/bs";
-import styles from "./contact.module.scss";
-import Offices from "./Offices/Offices";
-import emailjs from "emailjs-com";
-import ReCAPTCHA from "react-google-recaptcha";
-import FCSuccess from "../../common/FCSuccess";
+} from "@mui/material"
+import emailjs from "emailjs-com"
+import { useState } from "react"
+import ReCAPTCHA from "react-google-recaptcha"
+import { useForm } from "react-hook-form"
+import { AiFillTwitterCircle } from "react-icons/ai"
+import { BsFacebook } from "react-icons/bs"
+import FCSuccess from "../../common/FCSuccess"
+import styles from "./contact.module.scss"
+import Offices from "./Offices/Offices"
 
 const ContactUsForm = () => {
-  const [service, setService] = useState("sea");
-  const [varilization, setVarilization] = useState(false);
-  const [success, setSuccess] = useState(false);
+  const [service, setService] = useState("sea")
+  const [varilization, setVarilization] = useState(false)
+  const [success, setSuccess] = useState(false)
 
   const handleServiceChange = (event) => {
-    setService(event.target.value);
-  };
+    setService(event.target.value)
+  }
 
   const {
     register,
     handleSubmit,
     reset,
     formState: { errors },
-  } = useForm();
+  } = useForm()
   const onSubmit = (data) => {
-    const newData = { ...data, service };
+    const newData = { ...data, service }
 
     if (varilization) {
       emailjs
@@ -47,33 +47,33 @@ const ContactUsForm = () => {
           "service_orhth3q",
           "template_id0htzh",
           newData,
-          "ydXRP5u6kT9XoAg3H"
+          "ydXRP5u6kT9XoAg3H",
         )
         .then(
           (result) => {
-            console.log(result.text);
-            setSuccess(true);
+            // console.log(result.text);
+            setSuccess(true)
           },
           (error) => {
-            console.log(error.text);
-          }
-        );
+            // console.log(error.text);
+          },
+        )
     }
 
-    reset();
-    setService("sea");
-    setVarilization(false);
+    reset()
+    setService("sea")
+    setVarilization(false)
 
     setTimeout(() => {
-      setSuccess(false);
-    }, 6000);
-  };
+      setSuccess(false)
+    }, 6000)
+  }
 
   const handleVarilization = (value) => {
     if (value) {
-      setVarilization(true);
+      setVarilization(true)
     }
-  };
+  }
   return (
     <Box className={styles.contact__form}>
       {success && (
@@ -346,7 +346,7 @@ const ContactUsForm = () => {
         <Offices />
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default ContactUsForm;
+export default ContactUsForm

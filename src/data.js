@@ -1,10 +1,10 @@
-import { FaBox, FaCalendarAlt } from "react-icons/fa";
-import { GiCargoCrate } from "react-icons/gi";
-import { ImAirplane } from "react-icons/im";
-import { MdBookmarks, MdLocationPin } from "react-icons/md";
-import { RiShipLine, RiTimerFill } from "react-icons/ri";
-import { TbTruckDelivery } from "react-icons/tb";
-import { TfiBag } from "react-icons/tfi";
+import { FaBox, FaCalendarAlt } from "react-icons/fa"
+import { GiCargoCrate } from "react-icons/gi"
+import { ImAirplane } from "react-icons/im"
+import { MdBookmarks, MdLocationPin } from "react-icons/md"
+import { RiShipLine, RiTimerFill } from "react-icons/ri"
+import { TbTruckDelivery } from "react-icons/tb"
+import { TfiBag } from "react-icons/tfi"
 
 export const footerCountry = [
   {
@@ -107,7 +107,7 @@ export const footerCountry = [
       },
     ],
   },
-];
+]
 
 export const footerData = [
   {
@@ -145,7 +145,7 @@ export const footerData = [
       },
       {
         title: "Shop and Ship",
-        url: "/services/shop-and-Ship",
+        url: "/services/shop-and-ship",
       },
       {
         title: "International Removals",
@@ -165,7 +165,7 @@ export const footerData = [
       },
     ],
   },
-];
+]
 
 export const navMenuData = [
   {
@@ -173,12 +173,8 @@ export const navMenuData = [
     url: "/",
   },
   {
-    title: "About Us",
-    url: "/about-us",
-  },
-  {
     title: "Services",
-    url: "/",
+    url: "/services",
     submenu: [
       {
         title: "Air Freight",
@@ -195,7 +191,7 @@ export const navMenuData = [
       },
       {
         title: "Shop and Ship",
-        url: "/services/shop-and-Ship",
+        url: "/services/shop-and-ship",
       },
       {
         title: "International Removals",
@@ -216,29 +212,27 @@ export const navMenuData = [
     ],
   },
   {
-    title: "Help & Tracking",
+    title: "Tracking & Help",
     url: "/help-tracking",
     submenu: [
       {
         title: "AWB Tracking",
-        url: "/help-tracking",
+        url: "/help-tracking#awb-tracking",
       },
       {
-        title: "Commodity code finder",
-        url: "/help-tracking",
+        title: "Commodity Code Finder",
+        url: "/help-tracking#commodity-code-finder",
       },
       {
         title: "Eori Number",
-        url: "/help-tracking",
+        url: "/help-tracking#eori-number",
       },
+
       {
         title: "Customs and Security Information",
         url: "/help-tracking/customs-and-security-information",
       },
-      {
-        title: "Frequent Asked Questions",
-        url: "/frequent-asked-question",
-      },
+
       {
         title: "How to package your Items",
         url: "/help-tracking/how-to-package-your-Items",
@@ -255,14 +249,23 @@ export const navMenuData = [
         title: "Add Booking",
         url: "/help-tracking/add-booking",
       },
+      {
+        title: "Frequently Asked Questions",
+        url: "/frequently-asked-questions",
+      },
     ],
+  },
+
+  {
+    title: "About Us",
+    url: "/about-us",
   },
 
   {
     title: "Contact Us",
     url: "/contact-us",
   },
-];
+]
 
 export const services = [
   {
@@ -305,7 +308,7 @@ export const services = [
     serviceType: "Parcel",
     link: "/services/parcel",
   },
-];
+]
 
 export const recentNews = [
   {
@@ -327,7 +330,7 @@ export const recentNews = [
       "There are special considerations involving their transport, including stringent declaration and customs requirements",
     imgurl: "/assets/images/tyler-casey-CkZF0-etxU8-unsplash-390x200.jpg",
   },
-];
+]
 
 export const faqs = [
   {
@@ -345,7 +348,7 @@ export const faqs = [
     description:
       "<ul><li><p>Partnering with a freight forwarder is indeed a cost-effective solution. Granted, it might not seem that way at first as you need to allocate a budget for the services, which may seem expensive.</p></li><li><p>As a trustworthy partner in your business, we offer a whole range of services that save money in ways you might not anticipate.</p></li><li><p>Express Cargo cooperates with an entire network of partners that range from shipping companies to insurance agencies.</p></li><li><p>We are in a unique position to negotiate the best prices for our clients. That’s the side of our business that we’re especially proud of.</p></li><li><p>We’re experts at cargo consolidation, which can be a game-changer for small- to medium-sized businesses.</p></li><li><p>Do you need help streamlining the entire shipping process?</p></li><li><p>Let your freight forwarder manage all the moving parts such as rerouting, documentation, customs, and everything else that might give you a headache. Helping you move your cargo is where we shine.</p></li></ul>",
   },
-];
+]
 
 export const offers = [
   {
@@ -369,7 +372,7 @@ export const offers = [
   {
     title: "Parcel signed for delivery",
   },
-];
+]
 
 export const airFreightServices = [
   {
@@ -384,7 +387,7 @@ export const airFreightServices = [
     icon: <FaBox />,
     title: "Alternatively, you can deliver to us.",
   },
-];
+]
 
 export const airFreightInformation = [
   {
@@ -407,7 +410,7 @@ export const airFreightInformation = [
     descriptions:
       "<p>We provide a domestic and international courier service. We mainly provide door to door for such things as documents, sample shipments. This is an express services. Please use our parcel delivery service on our website to book directly</p>",
   },
-];
+]
 
 export const seaFreightServices = [
   {
@@ -425,7 +428,7 @@ export const seaFreightServices = [
     title:
       "Weekly sailings with a transit time of approximately average 21 days.",
   },
-];
+]
 
 export const seaFreightInformation = [
   {
@@ -448,7 +451,7 @@ export const seaFreightInformation = [
     descriptions:
       "<p>If you are buying goods and would like later to send by container then look no further. We have a great waterhouse facility that enables you to rent a space the size of a standard container 20FT. This space will give you and indication how much you can fill in a standard container. We can also arrange a 40FT container space if required. Contact our staff for further details.</p>",
   },
-];
+]
 
 export const serviceFaqs = [
   {
@@ -468,7 +471,7 @@ export const serviceFaqs = [
     description:
       "<ul><li><p>In accordance with the Green Freight Europe initiative, we focus on reducing empty kilometres and unnecessary fuel consumption.</p></li><li><p>We specialise in presenting you with a solution, no matter whether your capacity requirements have increased, are experiencing production surges, or are looking to enter new markets.</p></li><li><p>We boast one of the largest European carrier networks and our multi-lingual partners provide services in more than 25 languages.</p></li></ul>",
   },
-];
+]
 
 export const roadFreightBenefits = [
   {
@@ -486,7 +489,7 @@ export const roadFreightBenefits = [
     description:
       "<p>Fully tracked domestic distribution services for parcels, pallets and part loads extend to all corners of the United Kingdom.</p>",
   },
-];
+]
 
 export const roadFreightOtherServices = [
   {
@@ -516,7 +519,7 @@ export const roadFreightOtherServices = [
       "A global supply chain is a well-oiled machine, but only because experts such as ours are busy making it work. If you need a freight forwarder company that can ensure your products reach the consumer, the Express Cargo team has your back.",
     serviceType: "Supply Chain",
   },
-];
+]
 
 export const pricing = [
   {
@@ -537,7 +540,7 @@ export const pricing = [
     currency: "£",
     perKg: "2.10",
   },
-];
+]
 
 export const retailers = [
   "/assets/images/apple.png",
@@ -549,7 +552,7 @@ export const retailers = [
   "/assets/images/john-lewis.png",
   "/assets/images/house-of-fraser.png",
   "/assets/images/harvey-nichols.png",
-];
+]
 
 export const parcelPackageData = [
   {
@@ -557,7 +560,7 @@ export const parcelPackageData = [
     description:
       "<ul><li><p>Your items may be held by customs if they are subject to customs duties and taxes, or if they are prohibited or restricted.</p></li><li><p>Import duties and taxes—including administrative fees—may be payable by the receiver depending on the commodity and value of the goods. In some (but not all) countries, personal effects are exempt from these charges.</p></li><li><p>Failure by the receiver to pay customs charges will result in the return or destruction of the shipment. Any charges applied as a result of this will be billed to Customer</p></li><li><p>What are my responsibilities as a shipper?</p></li><li><p>As the shipper, you must:</p></li><li><p><b>Ensure that you send no prohibited or restricted items:</b></p></li><li><p>For example, some governments restrict certain foodstuffs from entering their country. Please view our list of dangerous and hazardous items that are universally prohibited.</p></li><li><p><b>Ensure that you have all of the necessary documentation:</b></p></li><li><p>All international shipments require a Packing List, also known as a Customs Invoice, which details the contents of your consignment. We will generate one of these for you, or if you are a business you can use your own. See our Packing List guide. (Until 31st December 2020, a Packing List / Customs Invoice is not required for shipments between the UK and the EU.)</p></li><li><p>Certain countries may require additional documentation depending on what you are sending..</p></li></ul>",
   },
-];
+]
 
 export const parcelPackageData2 = [
   {
@@ -575,7 +578,7 @@ export const parcelPackageData2 = [
     description:
       "<ul><li><p>Commodity codes are used to inform customs of the precise contents of your shipment, alongside descriptions of individual items. E.g. 4202321000 and '50 x plastic mobile phone cases'.</p></li><li><p>From 1st January 2021, they will be required for all shipments to and from the UK. Previously they were not needed when shipping to and from EU countries, but this is set to change. Please see our Brexit page for more information.</p></li><li><p>While commodity codes are generally only required for commercial shipments, we advise that you should always provide descriptions of goods to ensure a smooth delivery.</p></li><li><p>You can use our Commodity Code Finder to search for commodity codes. We advise doing this ahead of your booking as it can take some time.</p></li></ul>",
   },
-];
+]
 
 export const WeightAndDimension = [
   {
@@ -593,7 +596,7 @@ export const WeightAndDimension = [
     description:
       "<ul><li><p>For some controlled goods, an export license is required. This depends on the nature of the goods, the destination, and the end use - for example, military items or items that could be used for military purposes are likely to be controlled (if they aren't prohibited by carriers anyway).</p></li><li><p>The license requirement may also depend on whether the origin of your shipment is Great Britain or Northern Ireland.</p></li><li><p>You can apply for different types of license using <a href='https://www.spire.trade.gov.uk' target='_blank'>SPIRE</a>, the UK government's licensing system.</p></li><li><p>Licenses such as OGELs (general export licenses) are reusable licenses for exporters who regularly send certain types of item. Others, such as OIELs or SIELS (individual export licenses), are valid for fixed periods to named destinations.</p></li><li><p>Please refer to <a href='https://www.gov.uk/government/publications/spire-online-export-licensing-guidance/using-spire-to-get-an-export-licence' target='_blank'>GOV.UK</a> for more information, including a full list of license types.</p></li><li><p>Additional Information</p></li><li><p>HMRC: <a href='https://www.gov.uk/topic/business-tax/import-export' target='_blank'>Guide to importing and exporting</a></p></li></ul>",
   },
-];
+]
 
 export const FrequentAskedQuestionData = [
   {
@@ -780,4 +783,4 @@ export const FrequentAskedQuestionData = [
       },
     ],
   },
-];
+]

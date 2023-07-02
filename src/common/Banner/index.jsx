@@ -1,5 +1,5 @@
-import { Box, Container, Typography } from "@mui/material";
-import styles from "./Banner.module.scss";
+import { Box, Container, Typography } from "@mui/material"
+import styles from "./Banner.module.scss"
 
 const Banner = ({
   title,
@@ -54,7 +54,7 @@ const Banner = ({
         </Box>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner

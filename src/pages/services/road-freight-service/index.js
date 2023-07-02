@@ -1,26 +1,22 @@
-// import bg from "@/assets/genx_services_road_2000pxW-2000x760.jpg";
-import { roadFreightBenefits } from "@/data";
-import Benefits from "@/components/RoadFreight/Benefits";
-import ContactUs from "@/components/RoadFreight/ContactUs";
-import { Box, Container, Typography } from "@mui/material";
-import Divider from "@/common/Divider";
-import Banner from "@/common/Banner";
-import isEqual from "react-fast-compare";
-import React from "react";
-import Head from "next/head";
+// import bg from "@/assets/genx_services_road.jpg";
+import Banner from "@/common/Banner"
+import Divider from "@/common/Divider"
+import Benefits from "@/components/RoadFreight/Benefits"
+import ContactUs from "@/components/RoadFreight/ContactUs"
+import { roadFreightBenefits } from "@/data"
+import { Box, Container, Typography } from "@mui/material"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
 
 const RoadFreightService = () => {
   return (
     <>
-      <Head>
-        <title>
-          Road Freight Services - Road Freight Transport - Express Cargo
-        </title>
-        <meta
-          name="description"
-          content="Express Cargo offers road freight services in all countries across Europe. We handpick UK haulers for providing cutting-edge road freight transport services. "
-        />
-      </Head>
+      <NextSeo
+        title="Road Freight Services | Road Freight Transport"
+        description="Express Cargo offers road freight services in all countries across Europe. We handpick UK haulers for providing cutting-edge road freight transport services."
+      />
+
       <Banner
         title="Road Freight Services"
         subTitle="The concept of road freight is straightforward."
@@ -72,7 +68,7 @@ const RoadFreightService = () => {
 
       <ContactUs />
     </>
-  );
-};
+  )
+}
 
-export default React.memo(RoadFreightService, isEqual);
+export default React.memo(RoadFreightService, isEqual)

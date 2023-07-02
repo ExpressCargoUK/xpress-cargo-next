@@ -1,10 +1,11 @@
-import React from "react";
-import Banner from "@/common/Banner";
-import isEqual from "react-fast-compare";
-import Pricing from "@/components/Shop/Pricing";
-import Retailers from "@/components/Shop/Retailers";
-import { Box, Container, Typography } from "@mui/material";
-import Head from "next/head";
+import Banner from "@/common/Banner"
+import Pricing from "@/components/Shop/Pricing"
+import Retailers from "@/components/Shop/Retailers"
+import { Box, Container, Typography } from "@mui/material"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
+
 // import ShopAndShip from "@/components/Shop/ShopAndShip";
 // import HeroBanner from "@/components/Shop/HeroBanner";
 // import About from "@/components/Shop/About";
@@ -13,15 +14,11 @@ import Head from "next/head";
 const Shop = () => {
   return (
     <>
-      <Head>
-        <title>
-          Shipping Services - International Shipping - Shipping Company
-        </title>
-        <meta
-          name="description"
-          content="Choose our shop and ship option by ordering goods from UK online store to our warehouse and then get it delivered to your residence through international shipping."
-        />
-      </Head>
+      <NextSeo
+        title="Shipping Services | International Shipping | Shipping Company"
+        description="Choose our shop and ship option by ordering goods from UK online store to our warehouse and then get it delivered to your residence through international shipping."
+      />
+
       <div>
         <Banner
           title="You can order anything from any U.K. store like Amazon, Ebay, Boots, Next, Or any online retail."
@@ -50,7 +47,7 @@ const Shop = () => {
         </Container>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default React.memo(Shop, isEqual);
+export default React.memo(Shop, isEqual)

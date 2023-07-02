@@ -1,46 +1,46 @@
-import { useState, useEffect, useRef } from "react";
-import useScrollPosition from "../../../hooks/useScrollPosition";
-import useWindowSize from "../../../hooks/useWindowSize";
-import Dropdown from "./Dropdown";
-import Link from "next/link";
+import { useState, useEffect, useRef } from "react"
+import useScrollPosition from "../../../hooks/useScrollPosition"
+import useWindowSize from "../../../hooks/useWindowSize"
+import Dropdown from "./Dropdown"
+import Link from "next/link"
 
 const MenuItems = ({ items, depthLevel }) => {
-  const [dropdown, setDropdown] = useState(false);
-  const { width } = useWindowSize();
-  const scrollPosition = useScrollPosition();
+  const [dropdown, setDropdown] = useState(false)
+  const { width } = useWindowSize()
+  const scrollPosition = useScrollPosition()
 
-  let ref = useRef();
+  let ref = useRef()
 
   useEffect(() => {
     const handler = (event) => {
       if (dropdown && ref.current && !ref.current.contains(event.target)) {
-        setDropdown(false);
+        setDropdown(false)
       }
-    };
-    document.addEventListener("mousedown", handler);
-    document.addEventListener("touchstart", handler);
+    }
+    document.addEventListener("mousedown", handler)
+    document.addEventListener("touchstart", handler)
     return () => {
       // Cleanup the event listener
-      document.removeEventListener("mousedown", handler);
-      document.removeEventListener("touchstart", handler);
-    };
-  }, [dropdown]);
+      document.removeEventListener("mousedown", handler)
+      document.removeEventListener("touchstart", handler)
+    }
+  }, [dropdown])
 
   const onMouseEnter = () => {
     if (typeof window !== "undefined") {
-      window.innerWidth > 960 && setDropdown(true);
+      window.innerWidth > 960 && setDropdown(true)
     }
-  };
+  }
 
   const onMouseLeave = () => {
     if (typeof window !== "undefined") {
-      window.innerWidth > 960 && setDropdown(false);
+      window.innerWidth > 960 && setDropdown(false)
     }
-  };
+  }
 
   const closeDropdown = () => {
-    dropdown && setDropdown(false);
-  };
+    dropdown && setDropdown(false)
+  }
 
   return (
     <li
@@ -112,7 +112,7 @@ const MenuItems = ({ items, depthLevel }) => {
         </Link>
       )}
     </li>
-  );
-};
+  )
+}
 
-export default MenuItems;
+export default MenuItems

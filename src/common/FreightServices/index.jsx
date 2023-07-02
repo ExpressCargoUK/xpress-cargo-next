@@ -1,4 +1,4 @@
-import { Container, Box, Typography, Grid } from "@mui/material";
+import { Container, Box, Typography, Grid } from "@mui/material"
 // import styles from "./FreightServices.module.scss";
 
 const FreightServices = ({ services = [] }) => {
@@ -50,7 +50,7 @@ const FreightServices = ({ services = [] }) => {
         </Grid>
       </Container>
     </Box>
-  );
-};
+  )
+}
 
-export default FreightServices;
+export default FreightServices

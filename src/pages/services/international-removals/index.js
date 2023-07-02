@@ -1,21 +1,17 @@
-import React from "react";
-import isEqual from "react-fast-compare";
-import Banner from "@/common/Banner";
-import InternationalRemovals from "@/components/InternationalRemovals/InternationalRemovals";
-import Head from "next/head";
+import Banner from "@/common/Banner"
+import InternationalRemovals from "@/components/InternationalRemovals/InternationalRemovals"
+import { NextSeo } from "next-seo"
+import React from "react"
+import isEqual from "react-fast-compare"
 
 const InternationalRemovalsPage = () => {
   return (
     <>
-      <Head>
-        <title>
-          International Removals - Furniture Shipping - Furniture Delivery
-        </title>
-        <meta
-          name="description"
-          content="At Express Cargo, we are professionals in international removals for furniture shipping to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
-        />
-      </Head>
+      <NextSeo
+        title="International Removals | Furniture Shipping | Furniture Delivery"
+        description="At Express Cargo, we are professionals in international removals for furniture shipping to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
+      />
+
       <div>
         <Banner
           title="International furniture shipping"
@@ -25,7 +21,7 @@ const InternationalRemovalsPage = () => {
         <InternationalRemovals />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default React.memo(InternationalRemovalsPage, isEqual);
+export default React.memo(InternationalRemovalsPage, isEqual)
