@@ -12,7 +12,7 @@ const AboutUs = () => {
         description="Express Cargo, a Manchester, UK based freight forwarder specialist, import and export goods to Saudi Arabia, Kuwait, Qatar, UAE, Nigeria, India, Pakistan, etc."
       />
       <Banner
-        title="Express Cargo UK LTD"
+        title="Express Cargo UK Ltd"
         subTitle="We bring a modern touch to the world of freight forwarding, ensuring
             cutting-edge solutions for logistics and transport."
         video="/assets/videos/banner_video.mp4"

@@ -13,7 +13,6 @@
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: sans-serif;
 
     @media screen and (max-width: 990px) {
       font-size: 2.5rem;
@@ -32,7 +31,6 @@
       text-transform: uppercase;
       font-size: 1.2rem;
       font-weight: 600;
-      font-family: sans-serif;
       position: relative;
 
       &::before {
@@ -69,7 +67,6 @@
 
           font-size: 1rem;
           font-weight: 400;
-          font-family: sans-serif;
           text-transform: capitalize;
         }
       }
@@ -80,7 +77,6 @@
           color: inherit;
           font-size: 1rem;
           font-weight: 400;
-          font-family: sans-serif;
           text-transform: capitalize;
 
           display: flex;

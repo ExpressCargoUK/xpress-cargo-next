@@ -124,7 +124,7 @@ const Footer = () => {
                   </SocialIcon>
                 </a>
                 <a
-                  href="https://twitter.com/expresscargouk?t=JP3GCfFZHQjWnWyDPySNGw&s=09"
+                  href="https://twitter.com/expresscargouk"
                   target="_blank"
                   className={styles.url}
                   rel="noreferrer"
@@ -134,7 +134,7 @@ const Footer = () => {
                   </SocialIcon>
                 </a>
                 <a
-                  href="https://instagram.com/expresscargouk?igshid=YmMyMTA2M2Y="
+                  href="https://instagram.com/expresscargouk"
                   target="_blank"
                   className={styles.url}
                   rel="noreferrer"

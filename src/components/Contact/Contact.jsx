@@ -140,7 +140,7 @@ const ContactUsForm = () => {
                   <Box
                     className={styles.icon__box}
                     component="a"
-                    href="https://twitter.com/expresscargouk?t=JP3GCfFZHQjWnWyDPySNGw&s=09"
+                    href="https://twitter.com/expresscargouk"
                     target="_blank"
                   >
                     <AiFillTwitterCircle className={styles.tw__icon} />

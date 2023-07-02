@@ -1,5 +1,4 @@
 import FCSuccess from "@/common/FCSuccess"
-import styles from "@/styles/QuotationForm.module.scss"
 import {
   Box,
   Button,
@@ -19,6 +18,7 @@ import { NextSeo } from "next-seo"
 import { useState } from "react"
 import ReCAPTCHA from "react-google-recaptcha"
 import { useForm } from "react-hook-form"
+import styles from "./QuotationForm.module.scss"
 
 const QuotationForm = () => {
   const [varilization, setVarilization] = useState(false)

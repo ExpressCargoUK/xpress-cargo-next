@@ -1,7 +1,7 @@
 import SocialIcon from "../../../common/SocialIcon"
 import styles from "./styles.module.scss"
 
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa"
+import { FaFacebookF, FaTwitter } from "react-icons/fa"
 import { FiInstagram } from "react-icons/fi"
 
 const NavRightSocials = () => {
@@ -21,7 +21,7 @@ const NavRightSocials = () => {
         </SocialIcon>
       </a>
       <a
-        href="https://twitter.com/expresscargouk?t=JP3GCfFZHQjWnWyDPySNGw&s=09"
+        href="https://twitter.com/expresscargouk"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -34,7 +34,7 @@ const NavRightSocials = () => {
         </SocialIcon>
       </a>
       <a
-        href="https://instagram.com/expresscargouk?igshid=YmMyMTA2M2Y="
+        href="https://instagram.com/expresscargouk"
         target="_blank"
         rel="noopener noreferrer"
       >
