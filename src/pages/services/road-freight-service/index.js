@@ -1,4 +1,3 @@
-// import bg from "@/assets/genx_services_road.jpg";
 import Banner from "@/common/Banner"
 import Divider from "@/common/Divider"
 import Benefits from "@/components/RoadFreight/Benefits"

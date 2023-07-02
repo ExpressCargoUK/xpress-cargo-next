@@ -1,4 +1,3 @@
-import bg from "@/assets/genx_services_road.jpg"
 import HelpTracking from "@/components/HelpTracking/HelpTracking"
 import ServicesTopBanner from "@/components/ServicesTopBanner"
 import { NextSeo } from "next-seo"
@@ -14,7 +13,7 @@ const HelpAndTracking = () => {
         <ServicesTopBanner
           TitleBeforeBreak="Help And Tracking"
           // TitleAfterBreak="Freight Services"
-          backgroundImg={bg.src}
+          backgroundImg="/assets/images/genx_services_road.jpg"
           descriptions={["The concept of road freight is straightforward."]}
         />
 
