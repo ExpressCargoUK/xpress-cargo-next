@@ -1,8 +1,6 @@
 import Banner from "@/common/Banner"
 import OceanFreight from "@/components/OceanFreight/OceanFreight"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const OceanFreightPage = () => {
   return (
@@ -22,4 +20,4 @@ const OceanFreightPage = () => {
   )
 }
 
-export default React.memo(OceanFreightPage, isEqual)
+export default OceanFreightPage

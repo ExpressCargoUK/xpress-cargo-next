@@ -1,8 +1,6 @@
 import PageHead from "@/common/PageHead/PageHead"
 import ContactUsForm from "@/components/Contact/Contact"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const Contact = () => {
   return (
@@ -23,4 +21,4 @@ const Contact = () => {
   )
 }
 
-export default React.memo(Contact, isEqual)
+export default Contact

@@ -16,8 +16,7 @@ import {
 } from "@mui/material"
 import emailjs from "emailjs-com"
 import { NextSeo } from "next-seo"
-import React, { useState } from "react"
-import isEqual from "react-fast-compare"
+import { useState } from "react"
 import ReCAPTCHA from "react-google-recaptcha"
 import { useForm } from "react-hook-form"
 
@@ -772,4 +771,4 @@ const QuotationForm = () => {
   )
 }
 
-export default React.memo(QuotationForm, isEqual)
+export default QuotationForm

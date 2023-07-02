@@ -5,8 +5,6 @@ import RecentNews from "@/components/Home/RecentNews"
 import Services from "@/components/Home/Services"
 import WhatWeDo from "@/components/Home/WhatWeDo"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const Home = () => {
   return (
@@ -33,4 +31,4 @@ const Home = () => {
   )
 }
 
-export default React.memo(Home, isEqual)
+export default Home

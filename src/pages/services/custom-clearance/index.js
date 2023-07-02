@@ -1,8 +1,6 @@
 import Banner from "@/common/Banner"
 import Faq from "@/components/CustomClearance/Faq"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const CustomClearance = () => {
   return (
@@ -21,4 +19,4 @@ const CustomClearance = () => {
   )
 }
 
-export default React.memo(CustomClearance, isEqual)
+export default CustomClearance

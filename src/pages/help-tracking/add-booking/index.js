@@ -1,7 +1,5 @@
 import AddBooking from "@/components/AddBooking/AddBooking"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const AddBookingPage = () => {
   return (
@@ -17,4 +15,4 @@ const AddBookingPage = () => {
   )
 }
 
-export default React.memo(AddBookingPage, isEqual)
+export default AddBookingPage

@@ -3,8 +3,6 @@ import Pricing from "@/components/Shop/Pricing"
 import Retailers from "@/components/Shop/Retailers"
 import { Box, Container, Typography } from "@mui/material"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 // import ShopAndShip from "@/components/Shop/ShopAndShip";
 // import HeroBanner from "@/components/Shop/HeroBanner";
@@ -50,4 +48,4 @@ const Shop = () => {
   )
 }
 
-export default React.memo(Shop, isEqual)
+export default Shop

@@ -2,8 +2,6 @@ import Banner from "@/common/Banner"
 import About from "@/components/AboutUs/AboutUs"
 import Mission from "@/components/Mission/Mission"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const AboutUs = () => {
   return (
@@ -25,4 +23,4 @@ const AboutUs = () => {
   )
 }
 
-export default React.memo(AboutUs, isEqual)
+export default AboutUs

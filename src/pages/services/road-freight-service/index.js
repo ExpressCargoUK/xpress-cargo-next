@@ -6,8 +6,6 @@ import ContactUs from "@/components/RoadFreight/ContactUs"
 import { roadFreightBenefits } from "@/data"
 import { Box, Container, Typography } from "@mui/material"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const RoadFreightService = () => {
   return (
@@ -71,4 +69,4 @@ const RoadFreightService = () => {
   )
 }
 
-export default React.memo(RoadFreightService, isEqual)
+export default RoadFreightService

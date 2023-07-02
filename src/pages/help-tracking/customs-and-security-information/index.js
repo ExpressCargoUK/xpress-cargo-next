@@ -1,8 +1,6 @@
 import Banner from "@/common/Banner"
 import CustomsSecurityInformation from "@/components/CustomsSecurityInformation/CustomsSecurityInformation"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const CustomsSecurityInformationPage = () => {
   return (
@@ -25,4 +23,4 @@ const CustomsSecurityInformationPage = () => {
   )
 }
 
-export default React.memo(CustomsSecurityInformationPage, isEqual)
+export default CustomsSecurityInformationPage

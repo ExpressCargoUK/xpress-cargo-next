@@ -1,8 +1,6 @@
 import Banner from "@/common/Banner"
 import ExpressBaggage from "@/components/ExpressBaggage/ExpressBaggage"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const ExpressBaggagePage = () => {
   return (
@@ -23,4 +21,4 @@ const ExpressBaggagePage = () => {
   )
 }
 
-export default React.memo(ExpressBaggagePage, isEqual)
+export default ExpressBaggagePage

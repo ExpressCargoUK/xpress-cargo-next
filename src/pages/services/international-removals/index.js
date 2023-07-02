@@ -1,8 +1,6 @@
 import Banner from "@/common/Banner"
 import InternationalRemovals from "@/components/InternationalRemovals/InternationalRemovals"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const InternationalRemovalsPage = () => {
   return (
@@ -24,4 +22,4 @@ const InternationalRemovalsPage = () => {
   )
 }
 
-export default React.memo(InternationalRemovalsPage, isEqual)
+export default InternationalRemovalsPage

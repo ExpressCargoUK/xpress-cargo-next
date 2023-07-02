@@ -3,8 +3,6 @@ import FreightServices from "@/common/FreightServices"
 import AirFreightServiceComponent from "@/components/AirFreightService/AirFreightService"
 import { airFreightServices } from "@/data"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const SeaFreightService = () => {
   return (
@@ -24,4 +22,4 @@ const SeaFreightService = () => {
   )
 }
 
-export default React.memo(SeaFreightService, isEqual)
+export default SeaFreightService

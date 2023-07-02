@@ -1,8 +1,6 @@
 import Banner from "@/common/Banner"
 import Parcels from "@/components/Parcels/Parcels"
 import { NextSeo } from "next-seo"
-import React from "react"
-import isEqual from "react-fast-compare"
 
 const ParcelPage = () => {
   return (
@@ -24,4 +22,4 @@ const ParcelPage = () => {
   )
 }
 
-export default React.memo(ParcelPage, isEqual)
+export default ParcelPage
