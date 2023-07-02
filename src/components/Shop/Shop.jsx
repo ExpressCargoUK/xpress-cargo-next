@@ -1,9 +1,8 @@
 import { Container, Grid, Typography } from "@mui/material"
-import React from "react"
 import Divider from "../../common/Divider"
 import styles from "./ShopAndShip.module.scss"
 
-const ShopAndShip = () => {
+const Shop = () => {
   return (
     <div className={styles._wrapper}>
       <Container>
@@ -64,4 +63,4 @@ const ShopAndShip = () => {
   )
 }
 
-export default ShopAndShip
+export default Shop

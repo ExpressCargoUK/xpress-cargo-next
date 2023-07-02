@@ -9,7 +9,7 @@ import { NextSeo } from "next-seo"
 // import About from "@/components/Shop/About";
 // import Register from "@/components/Shop/Register";
 
-const Shop = () => {
+const ShopAndShip = () => {
   return (
     <>
       <NextSeo
@@ -48,4 +48,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default ShopAndShip

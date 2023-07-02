@@ -1,8 +1,5 @@
-import { Container, Box, Typography } from "@mui/material"
+import { Box, Container, Typography } from "@mui/material"
 import styles from "./styles.module.scss"
-
-import Man from "../../../assets/man.png"
-import Lady from "../../../assets/lady.png"
 
 const HeroBanner = () => {
   return (
@@ -26,7 +23,7 @@ const HeroBanner = () => {
 
       <Box sx={{ display: { xs: "none", lg: "block" } }}>
         <img
-          src={Man}
+          src="/assets/images/man.png"
           style={{
             height: "auto",
             objectFit: "contain",
@@ -40,7 +37,7 @@ const HeroBanner = () => {
       </Box>
       <Box sx={{ display: { xs: "none", lg: "block" } }}>
         <img
-          src={Lady}
+          src="/assets/images/lady.png"
           style={{
             height: "auto",
             objectFit: "contain",
