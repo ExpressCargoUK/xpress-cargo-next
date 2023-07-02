@@ -184,7 +184,6 @@ export const navMenuData = [
         title: "Sea Freight",
         url: "/services/sea-freight",
       },
-
       {
         title: "Road",
         url: "/services/road-freight-service",
@@ -227,12 +226,10 @@ export const navMenuData = [
         title: "Eori Number",
         url: "/help-tracking#eori-number",
       },
-
       {
         title: "Customs and Security Information",
         url: "/help-tracking/customs-and-security-information",
       },
-
       {
         title: "How to package your Items",
         url: "/help-tracking/how-to-package-your-Items",
