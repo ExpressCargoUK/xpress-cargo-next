@@ -15,6 +15,10 @@ const ShopAndShip = () => {
       <NextSeo
         title="Shipping Services | International Shipping | Shipping Company"
         description="Choose our shop and ship option by ordering goods from UK online store to our warehouse and then get it delivered to your residence through international shipping."
+        canonical="https://expresscargouk.co.uk/services/shop-and-ship"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/services/shop-and-ship",
+        }}
       />
 
       <div>

@@ -62,6 +62,10 @@ const QuotationForm = () => {
       <NextSeo
         title="Freight Shipping Quote | Parcel Quotes"
         description="Get a freight shipping quote by carefully submitting the form. We provide cargo services to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
+        canonical="https://expresscargouk.co.uk/help-tracking/quotation-form"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/help-tracking/quotation-form",
+        }}
       />
       <Box className={styles.__wrapper}>
         {success && (

@@ -12,6 +12,10 @@ const RoadFreightService = () => {
       <NextSeo
         title="Road Freight Services | Road Freight Transport"
         description="Express Cargo offers road freight services in all countries across Europe. We handpick UK haulers for providing cutting-edge road freight transport services."
+        canonical="https://expresscargouk.co.uk/services/road-freight-service"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/services/road-freight-service",
+        }}
       />
 
       <Banner

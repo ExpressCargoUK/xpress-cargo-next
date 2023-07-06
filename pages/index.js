@@ -10,8 +10,10 @@ const Home = () => {
   return (
     <>
       <NextSeo
-        title="Express Cargo | Freight Forwarding Agency | UK Shipping Company"
-        description="Express Cargo is a UK shipping and Freight forwarding agency offering cargo services to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
+        canonical="https://expresscargouk.co.uk"
+        openGraph={{
+          url: "https://expresscargouk.co.uk",
+        }}
       />
       <Banner
         title="Simple Freight Forwarding"

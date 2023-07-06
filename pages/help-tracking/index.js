@@ -8,6 +8,10 @@ const HelpAndTracking = () => {
       <NextSeo
         title="Freight Tracking | AWB Tracking | Cargo Tracking"
         description="Check out our freight tracking option for an easy cargo tracking. USE our AWB tracking or commodity code finder tool to enquire about your goods."
+        canonical="https://expresscargouk.co.uk/help-tracking"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/help-tracking",
+        }}
       />
       <div>
         <ServicesTopBanner

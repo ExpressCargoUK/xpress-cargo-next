@@ -6,9 +6,12 @@ const Contact = () => {
   return (
     <>
       <NextSeo
-        title="Contact Express Cargo UK Ltd | Freight Forwarding Services
-        Company"
-        description="Feel free to contact Express Cargo UK Ltd for reliable freight forwarding services. Call us at 0161 88 20 666, email at info@ecul.co.uk or submit the contact form."
+        title="Contact | Freight Forwarding Services Company"
+        description="Feel free to contact Express Cargo UK for reliable freight forwarding services. Call us at 0161 88 20 666, email at info@ecul.co.uk or submit the contact form."
+        canonical="https://expresscargouk.co.uk/contact-us"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/contact-us",
+        }}
       />
       <PageHead
         bgImage="/assets/images/contact-bg.jpg"

@@ -8,6 +8,10 @@ const ExpressBaggagePage = () => {
       <NextSeo
         title="Excess Baggage | Courier Services UK"
         description="We offer air freight and door to door excess baggage services to ship your belongings. Check out our shipping rates to Saudi Arabia, Qatar, Bahrain, UAE, etc."
+        canonical="https://expresscargouk.co.uk/services/excess-baggage"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/services/excess-baggage",
+        }}
       />
 
       <Banner

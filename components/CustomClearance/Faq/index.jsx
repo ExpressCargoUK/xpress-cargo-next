@@ -6,12 +6,12 @@ const Faq = () => {
     <Box component="section" className={styles.__wrapper}>
       <Container maxWidth="lg">
         <Typography className={styles.__title} variant="h5">
-          Why work with Express Cargo UK ltd for customs clearance?
+          Why work with Express Cargo UK for customs clearance?
         </Typography>
 
         <Typography className={styles.__para} variant="p" component="body1">
-          Express Cargo UK Ltd provides a comprehensive customs clearance
-          service for import shipments arriving at all UK ports and airports.
+          Express Cargo UK provides a comprehensive customs clearance service
+          for import shipments arriving at all UK ports and airports.
         </Typography>
         <Typography className={styles.__para} variant="p" component="body1">
           Our strength in understanding UK import regulations enables us to
@@ -30,7 +30,7 @@ const Faq = () => {
           reply.
         </Typography>
         <Typography className={styles.__para} variant="p" component="body1">
-          Customs clearance is complex business. At Express Cargo UK Ltd we know
+          Customs clearance is complex business. At Express Cargo UK we know
           this very well and we are here to assist, so whatever your country of
           origin, whatever your destination, we make it easy and uncomplicated.
         </Typography>

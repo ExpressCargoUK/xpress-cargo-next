@@ -232,7 +232,7 @@ export const navMenuData = [
       },
       {
         title: "How to package your Items",
-        url: "/help-tracking/how-to-package-your-Items",
+        url: "/help-tracking/how-to-package-your-items",
       },
       {
         title: "Weight and dimensions guidance",

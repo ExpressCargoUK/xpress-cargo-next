@@ -10,6 +10,10 @@ const SeaFreightService = () => {
       <NextSeo
         title="Air Freight Service | Air Cargo Services | Air Freight"
         description="Choose Express Cargo air freight team to ship your valuable goods by air. We offer air cargo services for Saudi Arabia, Kuwait, UAE, Sudan, India and Pakistan."
+        canonical="https://expresscargouk.co.uk/services/air-freight"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/services/air-freight",
+        }}
       />
       <Banner
         title={"Are you interested in shipping your goods by air?"}

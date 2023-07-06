@@ -8,6 +8,10 @@ const ParcelPage = () => {
       <NextSeo
         title="Parcel Delivery | Parcel Shipping | Send Parcels | DPD Delivery"
         description="With Express Cargo, you can send your parcels worldwide using our fast, secure and door to door service parcel shipping and delivery services. Get a quote today!"
+        canonical="https://expresscargouk.co.uk/services/parcel"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/services/parcel",
+        }}
       />
 
       <div>

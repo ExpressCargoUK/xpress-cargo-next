@@ -8,6 +8,10 @@ const CustomsSecurityInformationPage = () => {
       <NextSeo
         title="Import Export Info | Customs Clearance Information"
         description="For shippers and exporters, here is the customs and security information of formalities before choosing our air freight, sea cargo and road freight services."
+        canonical="https://expresscargouk.co.uk/help-tracking/customs-and-security-information"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/help-tracking/customs-and-security-information",
+        }}
       />
 
       <div>

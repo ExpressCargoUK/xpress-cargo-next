@@ -8,6 +8,10 @@ const OceanFreightPage = () => {
       <NextSeo
         title="Sea Freight | Sea Freight Services | Sea Shipping Company | Sea Cargo"
         description="Trust Express Cargo’s expert sea freight forwarders team to transport your goods worldwide from UK. Check out our sea cargo’s affordable containers options available!"
+        canonical="https://expresscargouk.co.uk/services/sea-freight"
+        openGraph={{
+          url: "https://expresscargouk.co.uk/services/sea-freight",
+        }}
       />
 
       <Banner
