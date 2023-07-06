@@ -26,8 +26,8 @@ const Faq = () => {
           arriving at all Ports and Airports nationwide.
         </Typography>
         <Typography className={styles.__para} variant="p" component="body1">
-          Please contact us on 0161 8820666 or via our Contact form for a prompt
-          reply.
+          Please contact us on +44 161 882 0666 or via our Contact form for a
+          prompt reply.
         </Typography>
         <Typography className={styles.__para} variant="p" component="body1">
           Customs clearance is complex business. At Express Cargo UK we know

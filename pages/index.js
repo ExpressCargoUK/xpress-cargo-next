@@ -1,7 +1,6 @@
 import Banner from "@/common/Banner"
 import ContactUsForm from "@/components/Contact/Contact"
 import FreightForwarder from "@/components/Home/FreightForwarder"
-import RecentNews from "@/components/Home/RecentNews"
 import Services from "@/components/Home/Services"
 import WhatWeDo from "@/components/Home/WhatWeDo"
 import { NextSeo } from "next-seo"
@@ -26,7 +25,7 @@ const Home = () => {
       <FreightForwarder />
       <Services />
       <WhatWeDo />
-      <RecentNews />
+      {/* <RecentNews /> */}
       {/* <Contact /> */}
       <ContactUsForm />
     </>

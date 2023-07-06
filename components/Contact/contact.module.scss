@@ -17,20 +17,20 @@
         font-size: 2rem;
       }
 
-      &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 25%;
-        width: 50%;
-        height: 6px;
-        background: linear-gradient(
-          90deg,
-          #4be0c5 0,
-          #2b3990 50%,
-          #02ddf9 100%
-        );
-      }
+      // &::before {
+      //   content: "";
+      //   position: absolute;
+      //   top: 0;
+      //   left: 25%;
+      //   width: 50%;
+      //   height: 6px;
+      //   background: linear-gradient(
+      //     90deg,
+      //     #4be0c5 0,
+      //     #2b3990 50%,
+      //     #02ddf9 100%
+      //   );
+      // }
     }
   }
 

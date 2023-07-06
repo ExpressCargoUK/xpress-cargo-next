@@ -65,7 +65,7 @@ const ExpressBaggage = () => {
                 If you would like to discuss your delivery in more detail or
                 have any queries about our services, our Customer Service team
                 is more than happy to help. You can reach us either by phone on
-                0161 88 20 666 or through our Live Chat facility.
+                +44 161 882 0666 or through our Live Chat facility.
               </Typography>
             </Grid>
           </Grid>

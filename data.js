@@ -174,7 +174,7 @@ export const navMenuData = [
   },
   {
     title: "Services",
-    url: "/services",
+    url: "/#services",
     submenu: [
       {
         title: "Air Freight",
@@ -619,7 +619,7 @@ export const FrequentAskedQuestionData = [
       {
         title: "Q. Do you provide wrapping and boxes?",
         description:
-          "A. We can provide wrapping and boxes, but please note there is an additional charge for these materials. To find out more please call our office on <a href='tel:01618820666'>0161 88 20666</a>.",
+          "A. We can provide wrapping and boxes, but please note there is an additional charge for these materials. To find out more please call our office on <a href='tel:+44 161 882 0666'>+44 161 882 0666</a>.",
       },
       {
         title:

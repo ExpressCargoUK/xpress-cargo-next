@@ -53,10 +53,10 @@ const Offices = () => {
               <Box
                 className={styles.link}
                 component="a"
-                href="tel:01618820666"
+                href="tel:+44 161 882 0666"
                 target="_blank"
               >
-                0161 88 20 666
+                +44 161 882 0666
               </Box>
             </Typography>
 
@@ -65,10 +65,10 @@ const Offices = () => {
               <Box
                 className={styles.link}
                 component="a"
-                href="mob:07875666625"
+                href="mob:+44 161 882 0666"
                 target="_blank"
               >
-                07875666625
+                +44 787 566 6625
               </Box>
             </Typography>
 

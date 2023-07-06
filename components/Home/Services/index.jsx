@@ -1,4 +1,4 @@
-import { Container, Box, Typography, Grid } from "@mui/material"
+import { Box, Container, Grid, Typography } from "@mui/material"
 import Divider from "../../../common/Divider"
 import ServiceCard from "../../../common/ServiceCard"
 import { services } from "../../../data"
@@ -10,7 +10,7 @@ const Services = ({
   renderServices = services,
 }) => {
   return (
-    <Box component="section" className={styles.__wrapper}>
+    <Box component="section" className={styles.__wrapper} id="services">
       <Container>
         <Box
           sx={{

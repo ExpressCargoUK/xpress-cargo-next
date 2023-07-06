@@ -65,7 +65,7 @@ const Footer = () => {
                     </SocialIcon>
 
                     <ul>
-                      <li>0161 882 0666</li>
+                      <li>+44 161 882 0666</li>
                     </ul>
                   </div>
                 </Box>

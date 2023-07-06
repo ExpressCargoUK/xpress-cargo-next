@@ -106,7 +106,11 @@ const ContactUsForm = () => {
                   <Typography>Domestic contact:</Typography>
                   <Typography>
                     T: &nbsp;
-                    <Box component="a" href="tel:01618820666" target="_blank">
+                    <Box
+                      component="a"
+                      href="tel:+44 161 882 0666"
+                      target="_blank"
+                    >
                       0161 88 20 666
                     </Box>
                   </Typography>

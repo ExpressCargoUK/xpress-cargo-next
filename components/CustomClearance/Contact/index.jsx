@@ -1,4 +1,4 @@
-import { Container, Box, Typography, Button } from "@mui/material"
+import { Box, Button, Container, Typography } from "@mui/material"
 import styles from "./styles.module.scss"
 
 const Contact = () => {
@@ -6,7 +6,7 @@ const Contact = () => {
     <Box component="section" className={styles.__wrapper}>
       <Container>
         <Typography className={styles.__title} variant="h3">
-          GIVE US A CALL ON 0161 882 0666
+          GIVE US A CALL ON +44 161 882 0666
         </Typography>
 
         <Box
