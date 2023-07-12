@@ -1,0 +1,155 @@
+.contact__form {
+  padding: 4rem 0;
+
+  .head {
+    display: flex;
+    justify-content: center;
+
+    .head__title {
+      text-align: center;
+      font-weight: 600;
+      color: #1c252e;
+      width: max-content;
+      padding: 3rem 0;
+      position: relative;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 2rem;
+      }
+
+      // &::before {
+      //   content: "";
+      //   position: absolute;
+      //   top: 0;
+      //   left: 25%;
+      //   width: 50%;
+      //   height: 6px;
+      //   background: linear-gradient(
+      //     90deg,
+      //     #4be0c5 0,
+      //     #2b3990 50%,
+      //     #02ddf9 100%
+      //   );
+      // }
+    }
+  }
+
+  .left__content {
+    .details {
+      color: #1c252e;
+      font-size: 1.1rem;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 1rem;
+      }
+    }
+
+    .contact__info {
+      p {
+        color: #1c252e;
+        font-size: 1.3rem;
+        line-height: 2.5rem;
+
+        a {
+          color: #1c252e !important;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .link {
+          color: #0000ee !important;
+          text-decoration: underline !important;
+        }
+      }
+    }
+
+    .social__icons {
+      margin-top: 0.5rem;
+
+      .fb__icon,
+      .tw__icon {
+        font-size: 2.5rem;
+        fill: #dbdbdb;
+        transition: 0.3s;
+
+        &:hover {
+          fill: #1aa4da;
+        }
+      }
+
+      .tw__icon {
+        font-size: 2.8rem !important;
+      }
+    }
+  }
+
+  .form {
+    .input__group {
+      display: flex;
+      gap: 2rem;
+
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 0;
+      }
+    }
+
+    .radio__group {
+      color: #1c252e;
+      margin-top: 2rem;
+      display: block;
+
+      .label {
+        color: #1c252e;
+
+        &:focus {
+          color: #1c252e;
+        }
+      }
+    }
+
+    .submit__btn {
+      box-shadow: none;
+      background: #1c252e;
+      text-transform: capitalize;
+      color: #fff;
+      padding: 0.5rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 25px;
+      transition: 0.3s;
+      margin-top: 3rem;
+
+      &:hover {
+        background: #4ce4c6;
+        color: #1c252e;
+      }
+    }
+  }
+}
+
+.form__input {
+  input {
+    &:focus {
+      background-color: #cbf4ec;
+    }
+  }
+}
+
+.textarea {
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-bottom: 1px solid #000;
+
+  &::placeholder {
+    font-size: 1rem;
+    color: #1c252e;
+  }
+
+  &:focus {
+    background: #cbf4ec;
+  }
+}

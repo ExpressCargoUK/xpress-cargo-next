@@ -1,0 +1,37 @@
+.__wrapper {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.445) 30%,
+      rgba(0, 23, 45, 0.37) 100%
+    ),
+    url("/assets/images/clearance_contact.jpg");
+  background-position: 20% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 7rem 0;
+
+  @media screen and (max-width: 990px) {
+    padding: 5rem 0;
+  }
+
+  .__title {
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 3rem;
+    text-align: center;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  .btn {
+    border-radius: 30px;
+    background-color: #fff;
+    color: #0e1e59;
+    padding: 15px 35px;
+    font-weight: 800;
+    font-size: 1.3rem;
+  }
+}
