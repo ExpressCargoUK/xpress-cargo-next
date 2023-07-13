@@ -4,12 +4,9 @@ import ScrollToTop from "@/common/scrollToTop"
 import "@/styles/index.scss"
 import "@/styles/reset.scss"
 import { DefaultSeo, LocalBusinessJsonLd } from "next-seo"
-import { Plus_Jakarta_Sans } from "next/font/google"
 import Head from "next/head"
 import Script from "next/script"
 import SEO from "../next-seo.config"
-
-const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] })
 
 export default function App({ Component, pageProps }) {
   return (
@@ -83,9 +80,7 @@ export default function App({ Component, pageProps }) {
           />
           <link rel="manifest" href="/site.webmanifest" />
         </Head>
-        <main className={pjs.className}>
-          <Component {...pageProps} />
-        </main>
+        <Component {...pageProps} />
         <Script
           strategy="lazyOnload"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}

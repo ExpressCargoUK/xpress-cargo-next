@@ -2,7 +2,7 @@ import VideoPlayer from "@/common/VideoPlayer/VideoPlayer"
 import PackageYourItemsComponents from "@/components/PackageYourItems/PackageYourItems"
 import { NextSeo } from "next-seo"
 
-const PackageYourItems = () => {
+function HowToPackage() {
   return (
     <>
       <NextSeo
@@ -20,4 +20,4 @@ const PackageYourItems = () => {
   )
 }
 
-export default PackageYourItems
+export default HowToPackage
