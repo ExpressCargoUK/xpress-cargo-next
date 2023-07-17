@@ -8,7 +8,7 @@ const SeaFreightService = () => {
   return (
     <>
       <NextSeo
-        title="Air Freight Service | Air Cargo Services | Air Freight"
+        title="Air Freight | Air Cargo Services"
         description="Choose Express Cargo air freight team to ship your valuable goods by air. We offer air cargo services for Saudi Arabia, Kuwait, UAE, Sudan, India and Pakistan."
         canonical="https://expresscargouk.co.uk/services/air-freight"
         openGraph={{

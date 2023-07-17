@@ -6,7 +6,7 @@ const WeightAndDimension = () => {
   return (
     <>
       <NextSeo
-        title="Parcel Weight and Dimensions Guide | Parcel Weighing Scales"
+        title="Parcel Weight and Dimensions Guide"
         description="At Express Cargo, we have mentioned parcel weight and dimensions guide for our customers on how to accurately measure a parcel using parcel weighing scales."
         canonical="https://expresscargouk.co.uk/help-tracking/weight-and-dimensions-guidance"
         openGraph={{

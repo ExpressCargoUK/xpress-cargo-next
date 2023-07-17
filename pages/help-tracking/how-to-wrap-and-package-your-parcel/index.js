@@ -8,9 +8,9 @@ function HowToPackage() {
       <NextSeo
         title="How to Package Parcel | Parcel Packaging | How to Wrap a Parcel"
         description="Read this informative guide on how to package a parcel. Know how to wrap a parcel and other important things to remember while packing of goods."
-        canonical="https://expresscargouk.co.uk/help-tracking/how-to-package-your-items"
+        canonical="https://expresscargouk.co.uk/help-tracking/how-to-wrap-and-package-your-parcel"
         openGraph={{
-          url: "https://expresscargouk.co.uk/help-tracking/how-to-package-your-items",
+          url: "https://expresscargouk.co.uk/help-tracking/how-to-wrap-and-package-your-parcel",
         }}
       />
       <div>

@@ -231,8 +231,8 @@ export const navMenuData = [
         url: "/help-tracking/customs-and-security-information",
       },
       {
-        title: "How to package your Items",
-        url: "/help-tracking/how-to-package-your-items",
+        title: "How to wrap and package your parcel",
+        url: "/help-tracking/how-to-wrap-and-package-your-parcel",
       },
       {
         title: "Weight and dimensions guidance",

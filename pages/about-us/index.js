@@ -7,7 +7,7 @@ const AboutUs = () => {
   return (
     <>
       <NextSeo
-        title="About | Freight Forwarder Specialist | Import Export Company"
+        title="About | Freight Forwarder Specialist | Import & Export"
         description="Express Cargo, a Manchester, UK based freight forwarder specialist, import and export goods to Saudi Arabia, Kuwait, Qatar, UAE, Nigeria, India, Pakistan, etc."
         canonical="https://expresscargouk.co.uk/about-us"
         openGraph={{

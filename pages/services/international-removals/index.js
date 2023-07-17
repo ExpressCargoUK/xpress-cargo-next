@@ -6,7 +6,7 @@ const InternationalRemovalsPage = () => {
   return (
     <>
       <NextSeo
-        title="International Removals | Furniture Shipping | Furniture Delivery"
+        title="International Removals | Furniture Delivery & Shipping"
         description="At Express Cargo, we are professionals in international removals for furniture shipping to Saudi Arabia, Kuwait, Qatar, UAE, Sudan, Nigeria, India and Pakistan."
         canonical="https://expresscargouk.co.uk/services/international-removals"
         openGraph={{

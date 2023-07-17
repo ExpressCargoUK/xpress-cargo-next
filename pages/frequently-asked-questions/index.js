@@ -5,7 +5,7 @@ const FrequentAskedQuestion = () => {
   return (
     <>
       <NextSeo
-        title="Freight Booking FAQ | Customs Duties Queries | Shipping Labels"
+        title="Freight Booking, Customs Duties, Shipping Labels FAQ"
         description="Kindly get some time to read frequently asked questions about air freight booking, sea freight booking, parcel booking, custom queries, shipping labels, etc."
         canonical="https://expresscargouk.co.uk/frequently-asked-questions"
         openGraph={{
