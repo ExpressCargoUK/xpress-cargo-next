@@ -13,9 +13,10 @@ function HowToPackage() {
           url: "https://expresscargouk.co.uk/help-tracking/how-to-package-your-items",
         }}
       />
-
-      <VideoPlayer url="https://youtu.be/XZ12FTLQYHw" />
-      <PackageYourItemsComponents />
+      <div>
+        <VideoPlayer url="https://youtu.be/XZ12FTLQYHw" />
+        <PackageYourItemsComponents />
+      </div>
     </>
   )
 }

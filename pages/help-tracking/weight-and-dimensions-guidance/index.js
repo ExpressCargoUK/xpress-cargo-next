@@ -13,9 +13,10 @@ const WeightAndDimension = () => {
           url: "https://expresscargouk.co.uk/help-tracking/weight-and-dimensions-guidance",
         }}
       />
-
-      <VideoPlayer url="https://youtu.be/2q2rD_bzqgE" />
-      <WeightAndDimensionComponent />
+      <div>
+        <VideoPlayer url="https://youtu.be/2q2rD_bzqgE" />
+        <WeightAndDimensionComponent />
+      </div>
     </>
   )
 }
