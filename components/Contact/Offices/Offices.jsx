@@ -35,17 +35,16 @@ const Offices = () => {
             </Typography>
 
             <Typography className={styles.info}>
-              Express Cargo UK Ltd
+              Express Cargo UK LTD
             </Typography>
 
             <Typography className={styles.info}>
-              Unit C 88-90 Chorlton Road
+              Gate 2, 92 Chorlton Road
             </Typography>
 
-            <Typography className={styles.info}>Old Trafford</Typography>
             <Typography className={styles.info}>Manchester</Typography>
-            <Typography className={styles.info}>M15 4AN</Typography>
-            <Typography className={styles.info}>United Kingdom</Typography>
+            <Typography className={styles.info}>M15 4AL</Typography>
+            <Typography className={styles.info}>UK</Typography>
             <br />
 
             <Typography className={styles.telephone} variant="h6">

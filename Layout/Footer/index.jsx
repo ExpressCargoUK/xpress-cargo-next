@@ -94,12 +94,11 @@ const Footer = () => {
                     </SocialIcon>
 
                     <ul>
-                      <li>Express Cargo UK Ltd</li>
-                      <li>Unit C 88-90 Chorlton Road</li>
-                      <li>Old Trafford</li>
+                      <li>Express Cargo UK LTD</li>
+                      <li>Gate 2, 92 Chorlton Road</li>
                       <li>Manchester</li>
-                      <li>M15 4AN</li>
-                      <li>United Kingdom</li>
+                      <li>M15 4AL</li>
+                      <li>UK</li>
                     </ul>
                   </div>
                 </Box>
