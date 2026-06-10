@@ -152,7 +152,7 @@ const AddBooking = () => {
           "service_orhth3q",
           "template_3a5vver",
           formData,
-          "ydXRP5u6kT9XoAg3H",
+          "xjY3gEAQr21SP5Hyg",
         )
         .then(
           (result) => {
