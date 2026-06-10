@@ -146,15 +146,6 @@ const Footer = () => {
 
               <Stack direction={"column"} sx={{ marginTop: "20px" }}>
                 <img
-                  src="/assets/images/parcel/bifa-logo-1.jpg"
-                  alt="BIFA logo"
-                  style={{
-                    width: "100%",
-                    objectFit: "contain",
-                    maxWidth: "150px",
-                  }}
-                />
-                <img
                   src="/assets/images/parcel/fiata.svg"
                   alt="FIATA logo"
                   style={{
