@@ -32,7 +32,7 @@ const QuotationForm = () => {
   const onSubmit = (data) => {
     if (varilization) {
       emailjs
-        .send("service_orhth3q", "template_5nleln6", data, "ydXRP5u6kT9XoAg3H")
+        .send("service_orhth3q", "template_5nleln6", data, "xjY3gEAQr21SP5Hyg")
         .then(
           (result) => {
             // console.log(result.text);
