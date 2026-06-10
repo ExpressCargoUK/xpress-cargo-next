@@ -39,11 +39,11 @@ const Offices = () => {
             </Typography>
 
             <Typography className={styles.info}>
-              Gate 2, 92 Chorlton Road
+              Unit C 88-90 Chorlton Road
             </Typography>
 
             <Typography className={styles.info}>Manchester</Typography>
-            <Typography className={styles.info}>M15 4AL</Typography>
+            <Typography className={styles.info}>M15 4AN</Typography>
             <Typography className={styles.info}>UK</Typography>
             <br />
 
