@@ -47,7 +47,7 @@ const ContactUsForm = () => {
           "service_orhth3q",
           "template_id0htzh",
           newData,
-          "ydXRP5u6kT9XoAg3H",
+          "xjY3gEAQr21SP5Hyg",
         )
         .then(
           (result) => {
