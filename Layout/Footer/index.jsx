@@ -95,9 +95,9 @@ const Footer = () => {
 
                     <ul>
                       <li>Express Cargo UK LTD</li>
-                      <li>Gate 2, 92 Chorlton Road</li>
+                      <li>Unit C 88-90 Chorlton Road</li>
                       <li>Manchester</li>
-                      <li>M15 4AL</li>
+                      <li>M15 4AN</li>
                       <li>UK</li>
                     </ul>
                   </div>
