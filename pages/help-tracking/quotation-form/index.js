@@ -36,6 +36,12 @@ const QuotationForm = () => {
         .then(
           (result) => {
             // console.log(result.text);
+            // Google Ads conversion: Quote Form Submission - Website
+            if (typeof window !== "undefined" && window.gtag) {
+              window.gtag("event", "conversion", {
+                send_to: "AW-938275590/X4QICMD30oodEIbms78D",
+              })
+            }
             setSuccess(true)
           },
           (error) => {

@@ -82,18 +82,18 @@ export default function App({ Component, pageProps }) {
         </Head>
         <Component {...pageProps} />
         <Script
-          strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-938275590"
         />
 
-        <Script strategy="lazyOnload" id="googleAnalytics">
+        <Script strategy="afterInteractive" id="googleTags">
           {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
+                    window.gtag = gtag;
                     gtag('js', new Date());
-                    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-                    page_path: window.location.pathname,
-                    });
+                    gtag('config', 'AW-938275590');
+                    ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS ? `gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', { page_path: window.location.pathname });` : ""}
                 `}
         </Script>
       </Layout>
